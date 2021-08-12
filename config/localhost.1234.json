@@ -1,5 +1,6 @@
 {
   "url": "http://127.0.0.1:1234",
+  "language": "en",
   "about": [
     "legacy",
     "monitor",
