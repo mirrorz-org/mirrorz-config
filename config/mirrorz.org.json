@@ -1,5 +1,12 @@
 {
   "url": "https://mirrorz.org",
+  "about": [
+    "legacy",
+    "monitor",
+    "oh-my-mirrorz",
+    "search",
+    "302-js"
+  ],
   "mirrors_legacy": [
     "tuna",
     "opentuna",
