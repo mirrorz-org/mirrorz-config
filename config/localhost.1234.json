@@ -1,6 +1,7 @@
 {
   "url": "http://127.0.0.1:1234",
   "display": "MirrorZ - Debug",
+  "display_legacy": "MirrorZ - Debug - Legacy",
   "language": "en",
   "about": [
     "legacy",
