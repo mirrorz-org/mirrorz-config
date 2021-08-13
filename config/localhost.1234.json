@@ -3,6 +3,11 @@
   "display": "MirrorZ - Debug",
   "display_legacy": "MirrorZ - Debug - Legacy",
   "language": "en",
+  "meta": {
+    "og:descrption": "A final site for Mirror sites.",
+    "descrption": "A final site for Mirror sites.",
+    "keywords": "mirrorz,mirrors,mirror,mirror site,linux,open source"
+  },
   "about": [
     "legacy",
     "monitor",
