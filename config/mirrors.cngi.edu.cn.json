@@ -1,0 +1,73 @@
+{
+  "url": "https://mirrors.cngi.edu.cn",
+  "display": "教育网镜像站们",
+  "display_legacy": "教育网镜像站们",
+  "language": "zh",
+  "meta": {
+    "og:description": "教育网镜像站们",
+    "description": "教育网镜像站们"
+  },
+  "about": [
+    "legacy",
+    "oh-my-mirrorz",
+    "302-go"
+  ],
+  "mirrors_legacy": [
+    "tuna",
+    "bfsu",
+    "bjtu",
+    "njupt",
+    "cqu",
+    "uestc",
+    "hit",
+    "nju",
+    "neusoft",
+    "scau",
+    "zju",
+    "pku",
+    "byrio",
+    "cqupt",
+    "ynuosa",
+    "xjtu"
+  ],
+  "mirrors": {
+    "https://mirrors.ustc.edu.cn/static/json/mirrorz.json" : "ustc",
+    "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json" : "siyuan",
+    "https://mirror.sjtu.edu.cn/mirrorz/zhiyuan.json" : "zhiyuan",
+    "https://mirrors.dgut.edu.cn/static/mirrorz.json" : "dgut",
+    "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json" : "sustech",
+    "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json" : "nwafu",
+    "https://mirrors.wsyu.edu.cn/.mirrorz/mirrorz.json" : "wsyu"
+  },
+  "upstream_legacy": [
+    "bjtu"
+  ],
+  "upstream_mirrors": [
+    "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
+    "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
+    "https://mirror.sjtu.edu.cn/mirrorz/zhiyuan.json",
+    "https://mirrors.dgut.edu.cn/static/mirrorz.json",
+    "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
+    "https://iptv.uestc.edu.cn/mirrors/mirrorz.json",
+    "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json"
+  ],
+  "upstream_parser": [
+    "nju",
+    "neusoft",
+    "tuna",
+    "bfsu",
+    "nano",
+    "neo",
+    "hit",
+    "cqu",
+    "scau",
+    "zju",
+    "pku",
+    "byrio",
+    "cqupt",
+    "ynuosa",
+    "xjtu",
+    "njupt",
+    "wsyu"
+  ]
+}
