@@ -45,7 +45,7 @@
     "xtom-ee"
   ],
   "mirrors": {
-    "ustc":   : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
+    "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
     "siyuan"  : "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
     "zhiyuan" : "https://mirror.sjtu.edu.cn/mirrorz/zhiyuan.json",
     "dgut"    : "https://mirrors.dgut.edu.cn/static/mirrorz.json",
