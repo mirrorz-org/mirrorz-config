@@ -31,13 +31,13 @@
     "xjtu"
   ],
   "mirrors": {
-    "https://mirrors.ustc.edu.cn/static/json/mirrorz.json" : "ustc",
-    "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json" : "siyuan",
-    "https://mirror.sjtu.edu.cn/mirrorz/zhiyuan.json" : "zhiyuan",
-    "https://mirrors.dgut.edu.cn/static/mirrorz.json" : "dgut",
-    "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json" : "sustech",
-    "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json" : "nwafu",
-    "https://mirrors.wsyu.edu.cn/.mirrorz/mirrorz.json" : "wsyu"
+    "ustc":   : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
+    "siyuan"  : "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
+    "zhiyuan" : "https://mirror.sjtu.edu.cn/mirrorz/zhiyuan.json",
+    "dgut"    : "https://mirrors.dgut.edu.cn/static/mirrorz.json",
+    "sustech" : "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
+    "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
+    "wsyu"    : "https://mirrors.wsyu.edu.cn/.mirrorz/mirrorz.json"
   },
   "upstream_legacy": [
     "bjtu"
