@@ -69,5 +69,13 @@
     "xjtu",
     "njupt",
     "wsyu"
+  ],
+  "d_mirrors": {
+    "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
+    "sustech" : "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
+    "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/mirrorz.d.json"
+  },
+  "d_parser": [
+    "nju"
   ]
 }
