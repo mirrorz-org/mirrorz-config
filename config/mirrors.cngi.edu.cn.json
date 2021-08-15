@@ -98,6 +98,9 @@
     "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/mirrorz.d.json"
   },
   "d_parser": [
-    "nju"
+    "nju",
+    "nano",
+    "neo",
+    "bfsu"
   ]
 }
