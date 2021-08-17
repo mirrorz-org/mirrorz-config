@@ -54,7 +54,6 @@
     "wsyu"    : "https://mirrors.wsyu.edu.cn/.mirrorz/mirrorz.json"
   },
   "upstream_legacy": [
-    "bjtu",
     "tongji",
     "neu"
   ],
@@ -93,7 +92,8 @@
     "xtom-nl",
     "xtom-ee",
     "njupt",
-    "wsyu"
+    "wsyu",
+    "bjtu"
   ],
   "monitor_parser": [
     "lzu",
@@ -119,7 +119,8 @@
     "xtom-de",
     "xtom-nl",
     "xtom-ee",
-    "njupt"
+    "njupt",
+    "bjtu"
   ],
   "monitor_mirrors": [
     "https://status.tuna.wiki/mirrorz/static/opentuna.json",

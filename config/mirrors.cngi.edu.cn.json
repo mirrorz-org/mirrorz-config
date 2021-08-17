@@ -39,7 +39,6 @@
     "wsyu"    : "https://mirrors.wsyu.edu.cn/.mirrorz/mirrorz.json"
   },
   "upstream_legacy": [
-    "bjtu"
   ],
   "upstream_mirrors": [
     "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -65,7 +64,8 @@
     "ynuosa",
     "xjtu",
     "njupt",
-    "wsyu"
+    "wsyu",
+    "bjtu"
   ],
   "monitor_parser": [
     "nju",
@@ -80,7 +80,8 @@
     "byrio",
     "cqupt",
     "ynuosa",
-    "njupt"
+    "njupt",
+    "bjtu"
   ],
   "monitor_mirrors": [
     "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -102,6 +103,7 @@
     "nano",
     "neo",
     "bfsu",
-    "hit"
+    "hit",
+    "bjtu"
   ]
 }

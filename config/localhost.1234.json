@@ -53,7 +53,6 @@
     "wsyu"    : "https://mirrors.wsyu.edu.cn/.mirrorz/mirrorz.json"
   },
   "upstream_legacy": [
-    "bjtu",
     "tongji",
     "neu"
   ],
@@ -92,6 +91,7 @@
     "xtom-nl",
     "xtom-ee",
     "njupt",
-    "wsyu"
+    "wsyu",
+    "bjtu"
   ]
 }
