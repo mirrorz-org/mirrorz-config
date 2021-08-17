@@ -27,7 +27,8 @@
     "byrio",
     "cqupt",
     "ynuosa",
-    "xjtu"
+    "xjtu",
+    "wsyu"
   ],
   "mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -35,8 +36,7 @@
     "zhiyuan" : "https://mirror.sjtu.edu.cn/mirrorz/zhiyuan.json",
     "dgut"    : "https://mirrors.dgut.edu.cn/static/mirrorz.json",
     "sustech" : "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
-    "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
-    "wsyu"    : "https://mirrors.wsyu.edu.cn/.mirrorz/mirrorz.json"
+    "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json"
   },
   "upstream_legacy": [
   ],
