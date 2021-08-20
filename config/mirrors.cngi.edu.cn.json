@@ -24,11 +24,11 @@
     "nju",
     "neusoft",
     "pku",
-    "byrio",
     "cqupt",
     "ynuosa",
     "xjtu",
-    "wsyu"
+    "wsyu",
+    "bupt"
   ],
   "mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -59,13 +59,13 @@
     "hit",
     "cqu",
     "pku",
-    "byrio",
     "cqupt",
     "ynuosa",
     "xjtu",
     "njupt",
     "wsyu",
-    "bjtu"
+    "bjtu",
+    "bupt"
   ],
   "monitor_parser": [
     "nju",
@@ -77,11 +77,11 @@
     "cqu",
     "xjtu",
     "pku",
-    "byrio",
     "cqupt",
     "ynuosa",
     "njupt",
-    "bjtu"
+    "bjtu",
+    "bupt"
   ],
   "monitor_mirrors": [
     "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",

@@ -43,7 +43,8 @@
     "xtom-de",
     "xtom-nl",
     "xtom-ee",
-    "wsyu"
+    "wsyu",
+    "bupt"
   ],
   "mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -93,7 +94,8 @@
     "xtom-ee",
     "njupt",
     "wsyu",
-    "bjtu"
+    "bjtu",
+    "bupt"
   ],
   "monitor_parser": [
     "lzu",
@@ -120,7 +122,8 @@
     "xtom-nl",
     "xtom-ee",
     "njupt",
-    "bjtu"
+    "bjtu",
+    "bupt"
   ],
   "monitor_mirrors": [
     "https://status.tuna.wiki/mirrorz/static/opentuna.json",
