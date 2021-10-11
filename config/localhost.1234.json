@@ -51,7 +51,8 @@
     "zhiyuan" : "https://mirror.sjtu.edu.cn/mirrorz/zhiyuan.json",
     "dgut"    : "https://mirrors.dgut.edu.cn/static/mirrorz.json",
     "sustech" : "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
-    "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json"
+    "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
+    "iscas"   : "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json"
   },
   "upstream_legacy": [
     "tongji",
@@ -65,7 +66,8 @@
     "https://mirrors.dgut.edu.cn/static/mirrorz.json",
     "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
     "https://iptv.uestc.edu.cn/mirrors/mirrorz.json",
-    "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json"
+    "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
+    "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json"
   ],
   "upstream_parser": [
     "lzu",
