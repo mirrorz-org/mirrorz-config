@@ -44,7 +44,8 @@
     "xtom-ee",
     "wsyu",
     "bupt",
-    "sdu"
+    "sdu",
+    "xidian"
   ],
   "mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -98,6 +99,7 @@
     "wsyu",
     "bjtu",
     "bupt",
-    "sdu"
+    "sdu",
+    "xidian"
   ]
 }

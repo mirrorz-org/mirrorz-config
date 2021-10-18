@@ -29,7 +29,8 @@
     "xjtu",
     "wsyu",
     "bupt",
-    "sdu"
+    "sdu",
+    "xidian"
   ],
   "mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -67,7 +68,8 @@
     "wsyu",
     "bjtu",
     "bupt",
-    "sdu"
+    "sdu",
+    "xidian"
   ],
   "monitor_parser": [
     "nju",
@@ -84,7 +86,8 @@
     "njupt",
     "bjtu",
     "bupt",
-    "sdu"
+    "sdu",
+    "xidian"
   ],
   "monitor_mirrors": [
     "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
