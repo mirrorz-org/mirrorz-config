@@ -29,8 +29,7 @@
     "xjtu",
     "wsyu",
     "bupt",
-    "sdu",
-    "xidian"
+    "sdu"
   ],
   "mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -38,7 +37,8 @@
     "zhiyuan" : "https://mirror.sjtu.edu.cn/mirrorz/zhiyuan.json",
     "dgut"    : "https://mirrors.dgut.edu.cn/static/mirrorz.json",
     "sustech" : "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
-    "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json"
+    "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
+    "xidian"  : "https://linux.xidian.edu.cn/mirrors/status.json"
   },
   "upstream_legacy": [
   ],
@@ -49,7 +49,8 @@
     "https://mirrors.dgut.edu.cn/static/mirrorz.json",
     "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
     "https://iptv.uestc.edu.cn/mirrors/mirrorz.json",
-    "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json"
+    "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
+    "https://linux.xidian.edu.cn/mirrors/status.json"
   ],
   "upstream_parser": [
     "nju",
@@ -68,8 +69,7 @@
     "wsyu",
     "bjtu",
     "bupt",
-    "sdu",
-    "xidian"
+    "sdu"
   ],
   "monitor_parser": [
     "nju",
@@ -86,8 +86,7 @@
     "njupt",
     "bjtu",
     "bupt",
-    "sdu",
-    "xidian"
+    "sdu"
   ],
   "monitor_mirrors": [
     "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -97,12 +96,14 @@
     "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
     "https://iptv.uestc.edu.cn/mirrors/mirrorz.json",
     "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
-    "https://mirrors.wsyu.edu.cn/.mirrorz/mirrorz.json"
+    "https://mirrors.wsyu.edu.cn/.mirrorz/mirrorz.json",
+    "https://linux.xidian.edu.cn/mirrors/status.json"
   ],
   "d_mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
     "sustech" : "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
-    "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/mirrorz.d.json"
+    "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/mirrorz.d.json",
+    "xidian"  : "https://linux.xidian.edu.cn/mirrors/status.json"
   },
   "d_parser": [
     "nju",
@@ -110,7 +111,6 @@
     "neo",
     "bfsu",
     "hit",
-    "bjtu",
-    "xidian"
+    "bjtu"
   ]
 }
