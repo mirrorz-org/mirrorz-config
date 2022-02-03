@@ -44,8 +44,7 @@
     "xtom-ee",
     "xtom-jp",
     "wsyu",
-    "bupt",
-    "sdu"
+    "bupt"
   ],
   "mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -56,7 +55,8 @@
     "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
     "iscas"   : "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
     "xidian"  : "https://linux.xidian.edu.cn/mirrors/status.json",
-    "zju"     : "https://mirrors.zju.edu.cn/api/mirrorz.json"
+    "zju"     : "https://mirrors.zju.edu.cn/api/mirrorz.json",
+    "sdu"     : "https://mirrors.sdu.edu.cn/mirrorz.json"
   },
   "upstream_legacy": [
     "tongji",
@@ -73,7 +73,8 @@
     "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
     "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
     "https://linux.xidian.edu.cn/mirrors/status.json",
-    "https://mirrors.zju.edu.cn/api/mirrorz.json"
+    "https://mirrors.zju.edu.cn/api/mirrorz.json",
+    "https://mirrors.sdu.edu.cn/mirrorz.json"
   ],
   "upstream_parser": [
     "lzu",
@@ -101,8 +102,7 @@
     "njupt",
     "wsyu",
     "bjtu",
-    "bupt",
-    "sdu"
+    "bupt"
   ],
   "monitor_parser": [
     "lzu",
@@ -129,8 +129,7 @@
     "xtom-jp",
     "njupt",
     "bjtu",
-    "bupt",
-    "sdu"
+    "bupt"
   ],
   "monitor_mirrors": [
     "https://status.tuna.wiki/mirrorz/static/opentuna.json",
@@ -144,6 +143,7 @@
     "https://mirrors.wsyu.edu.cn/.mirrorz/mirrorz.json",
     "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
     "https://linux.xidian.edu.cn/mirrors/status.json",
-    "https://mirrors.zju.edu.cn/api/mirrorz.json"
+    "https://mirrors.zju.edu.cn/api/mirrorz.json",
+    "https://mirrors.sdu.edu.cn/mirrorz.json"
   ]
 }

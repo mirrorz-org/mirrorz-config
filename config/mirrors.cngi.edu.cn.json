@@ -28,8 +28,7 @@
     "ynuosa",
     "xjtu",
     "wsyu",
-    "bupt",
-    "sdu"
+    "bupt"
   ],
   "mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -39,7 +38,8 @@
     "sustech" : "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
     "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
     "xidian"  : "https://linux.xidian.edu.cn/mirrors/status.json",
-    "zju"     : "https://mirrors.zju.edu.cn/api/mirrorz.json"
+    "zju"     : "https://mirrors.zju.edu.cn/api/mirrorz.json",
+    "sdu"     : "https://mirrors.sdu.edu.cn/mirrorz.json"
   },
   "upstream_legacy": [
   ],
@@ -52,7 +52,8 @@
     "https://iptv.uestc.edu.cn/mirrors/mirrorz.json",
     "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
     "https://linux.xidian.edu.cn/mirrors/status.json",
-    "https://mirrors.zju.edu.cn/api/mirrorz.json"
+    "https://mirrors.zju.edu.cn/api/mirrorz.json",
+    "https://mirrors.sdu.edu.cn/mirrorz.json"
   ],
   "upstream_parser": [
     "nju",
@@ -70,8 +71,7 @@
     "njupt",
     "wsyu",
     "bjtu",
-    "bupt",
-    "sdu"
+    "bupt"
   ],
   "monitor_parser": [
     "nju",
@@ -87,8 +87,7 @@
     "ynuosa",
     "njupt",
     "bjtu",
-    "bupt",
-    "sdu"
+    "bupt"
   ],
   "monitor_mirrors": [
     "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -100,7 +99,8 @@
     "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
     "https://mirrors.wsyu.edu.cn/.mirrorz/mirrorz.json",
     "https://linux.xidian.edu.cn/mirrors/status.json",
-    "https://mirrors.zju.edu.cn/api/mirrorz.json"
+    "https://mirrors.zju.edu.cn/api/mirrorz.json",
+    "https://mirrors.sdu.edu.cn/mirrorz.json"
   ],
   "d_mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
