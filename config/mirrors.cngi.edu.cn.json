@@ -28,7 +28,8 @@
     "ynuosa",
     "xjtu",
     "wsyu",
-    "bupt"
+    "bupt",
+    "njtech"
   ],
   "mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -71,7 +72,8 @@
     "njupt",
     "wsyu",
     "bjtu",
-    "bupt"
+    "bupt",
+    "njtech"
   ],
   "monitor_parser": [
     "nju",
@@ -87,7 +89,8 @@
     "ynuosa",
     "njupt",
     "bjtu",
-    "bupt"
+    "bupt",
+    "njtech"
   ],
   "monitor_mirrors": [
     "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
