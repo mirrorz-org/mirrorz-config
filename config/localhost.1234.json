@@ -49,7 +49,7 @@
   "mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
     "siyuan"  : "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
-    "zhiyuan" : "https://mirror.sjtu.edu.cn/mirrorz/zhiyuan.json",
+    "zhiyuan" : "https://mirrors.sjtug.sjtu.edu.cn/mirrorz/zhiyuan.json",
     "dgut"    : "https://mirrors.dgut.edu.cn/static/mirrorz.json",
     "sustech" : "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
     "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
