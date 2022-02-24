@@ -1,0 +1,44 @@
+{
+  "url": "https://mirrors.cernet.edu.cn",
+  "display": "教育网联合镜像站",
+  "display_legacy": "教育网联合镜像站",
+  "language": "zh",
+  "meta": {
+    "og:description": "教育网联合镜像站",
+    "description": "教育网联合镜像站"
+  },
+  "about": [
+    "legacy",
+    "monitor",
+    "oh-my-mirrorz",
+    "302-go"
+  ],
+  "mirrors_legacy": [
+    "tuna",
+    "bfsu"
+  ],
+  "upstream_legacy": [
+  ],
+  "upstream_mirrors": [
+  ],
+  "upstream_parser": [
+    "tuna",
+    "bfsu",
+    "nano",
+    "neo"
+  ],
+  "monitor_parser": [
+    "bfsu",
+    "nano",
+    "neo"
+  ],
+  "monitor_mirrors": [
+  ],
+  "d_mirrors": {
+  },
+  "d_parser": [
+    "nano",
+    "neo",
+    "bfsu"
+  ]
+}
