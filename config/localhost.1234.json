@@ -2,6 +2,7 @@
   "url": "http://127.0.0.1:1234",
   "display": "MirrorZ - Debug",
   "display_legacy": "MirrorZ - Debug - Legacy",
+  "intro": "<div><p>\"Your next MirrorS is not MirrorS, nor MirrorSes, it's MirrorZ.\"</p><p>\"A final site for Mirror sites.\"</p></div>",
   "language": "en",
   "meta": {
     "og:description": "A final site for Mirror sites.",
