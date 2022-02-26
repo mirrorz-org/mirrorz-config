@@ -16,30 +16,61 @@
   ],
   "mirrors_legacy": [
     "tuna",
-    "bfsu"
+    "bfsu",
+    "bjtu",
+    "cqu",
+    "hit",
+    "nju",
+    "ynuosa"
   ],
+  "mirrors": {
+    "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
+    "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
+    "iscas"   : "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json"
+  },
   "upstream_legacy": [
   ],
   "upstream_mirrors": [
+    "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
+    "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
+    "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json"
   ],
   "upstream_parser": [
     "tuna",
     "bfsu",
     "nano",
-    "neo"
+    "neo",
+    "nju",
+    "hit",
+    "cqu",
+    "ynuosa",
+    "bjtu"
   ],
   "monitor_parser": [
     "bfsu",
     "nano",
-    "neo"
+    "neo",
+    "nju",
+    "hit",
+    "cqu",
+    "ynuosa",
+    "bjtu"
   ],
   "monitor_mirrors": [
+    "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
+    "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
+    "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json"
   ],
   "d_mirrors": {
+    "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
+    "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/mirrorz.d.json"
   },
   "d_parser": [
+    "nju",
     "nano",
     "neo",
-    "bfsu"
+    "bfsu",
+    "hit",
+    "bjtu"
   ]
 }
