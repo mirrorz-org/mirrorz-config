@@ -101,7 +101,8 @@
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
     "sustech" : "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
     "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/mirrorz.d.json",
-    "xidian"  : "https://linux.xidian.edu.cn/mirrors/status.json"
+    "xidian"  : "https://linux.xidian.edu.cn/mirrors/status.json",
+    "zju"     : "https://mirrors.zju.edu.cn/api/mirrorz.json"
   },
   "d_parser": [
     "nju",
