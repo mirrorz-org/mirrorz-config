@@ -115,7 +115,9 @@
     "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/mirrorz.d.json",
     "xidian"  : "https://linux.xidian.edu.cn/mirrors/status.json",
     "zju"     : "https://mirrors.zju.edu.cn/api/mirrorz.json",
-    "sdu"     : "https://mirrors.sdu.edu.cn/mirrorz.json"
+    "sdu"     : "https://mirrors.sdu.edu.cn/mirrorz.json",
+    "siyuan"  : "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
+    "zhiyuan" : "https://mirrors.sjtug.sjtu.edu.cn/mirrorz/zhiyuan.json"
   },
   "d_parser": [
     "nju",
