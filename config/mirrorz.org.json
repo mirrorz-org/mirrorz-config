@@ -32,7 +32,6 @@
     "lzu",
     "neu",
     "nyist",
-    "scau",
     "pku",
     "byrio",
     "cqupt",
@@ -58,7 +57,8 @@
     "iscas"   : "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
     "xidian"  : "https://linux.xidian.edu.cn/mirrors/status.json",
     "zju"     : "https://mirrors.zju.edu.cn/api/mirrorz.json",
-    "sdu"     : "https://mirrors.sdu.edu.cn/mirrorz.json"
+    "sdu"     : "https://mirrors.sdu.edu.cn/mirrorz.json",
+    "scau"    : "https://mirrors.scau.edu.cn/mirrorz.d.json"
   },
   "upstream_legacy": [
     "tongji",
@@ -76,7 +76,8 @@
     "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
     "https://linux.xidian.edu.cn/mirrors/status.json",
     "https://mirrors.zju.edu.cn/api/mirrorz.json",
-    "https://mirrors.sdu.edu.cn/mirrorz.json"
+    "https://mirrors.sdu.edu.cn/mirrorz.json",
+    "https://mirrors.scau.edu.cn/mirrorz.d.json"
   ],
   "upstream_parser": [
     "lzu",
@@ -89,7 +90,6 @@
     "hit",
     "cqu",
     "nyist",
-    "scau",
     "pku",
     "byrio",
     "cqupt",
@@ -117,7 +117,6 @@
     "hit",
     "cqu",
     "xjtu",
-    "scau",
     "neu",
     "nyist",
     "pku",
@@ -148,6 +147,7 @@
     "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
     "https://linux.xidian.edu.cn/mirrors/status.json",
     "https://mirrors.zju.edu.cn/api/mirrorz.json",
-    "https://mirrors.sdu.edu.cn/mirrorz.json"
+    "https://mirrors.sdu.edu.cn/mirrorz.json",
+    "https://mirrors.scau.edu.cn/mirrorz.d.json"
   ]
 }

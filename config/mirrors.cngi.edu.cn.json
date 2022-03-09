@@ -42,7 +42,8 @@
     "xidian"  : "https://linux.xidian.edu.cn/mirrors/status.json",
     "zju"     : "https://mirrors.zju.edu.cn/api/mirrorz.json",
     "sdu"     : "https://mirrors.sdu.edu.cn/mirrorz.json",
-    "iscas"   : "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json"
+    "iscas"   : "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
+    "scau"    : "https://mirrors.scau.edu.cn/mirrorz.d.json"
   },
   "upstream_legacy": [
   ],
@@ -57,7 +58,8 @@
     "https://linux.xidian.edu.cn/mirrors/status.json",
     "https://mirrors.zju.edu.cn/api/mirrorz.json",
     "https://mirrors.sdu.edu.cn/mirrorz.json",
-    "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json"
+    "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
+    "https://mirrors.scau.edu.cn/mirrorz.d.json"
   ],
   "upstream_parser": [
     "nju",
@@ -107,7 +109,8 @@
     "https://linux.xidian.edu.cn/mirrors/status.json",
     "https://mirrors.zju.edu.cn/api/mirrorz.json",
     "https://mirrors.sdu.edu.cn/mirrorz.json",
-    "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json"
+    "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
+    "https://mirrors.scau.edu.cn/mirrorz.d.json"
   ],
   "d_mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -117,7 +120,8 @@
     "zju"     : "https://mirrors.zju.edu.cn/api/mirrorz.json",
     "sdu"     : "https://mirrors.sdu.edu.cn/mirrorz.json",
     "siyuan"  : "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
-    "zhiyuan" : "https://mirrors.sjtug.sjtu.edu.cn/mirrorz/zhiyuan.json"
+    "zhiyuan" : "https://mirrors.sjtug.sjtu.edu.cn/mirrorz/zhiyuan.json",
+    "scau"    : "https://mirrors.scau.edu.cn/mirrorz.d.json"
   },
   "d_parser": [
     "nju",
