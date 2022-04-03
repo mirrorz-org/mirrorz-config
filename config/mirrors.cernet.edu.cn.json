@@ -1,12 +1,12 @@
 {
   "url": "https://mirrors.cernet.edu.cn",
-  "display": "教育网联合镜像站",
-  "display_legacy": "教育网联合镜像站",
-  "intro": "<div><p>TBD</p></div>",
+  "display": "校园网联合镜像站",
+  "display_legacy": "校园网联合镜像站",
+  "intro": "<div><p>本站提供对校园网镜像站的索引和跳转服务。</p><p>本站仅索引各镜像站的元数据信息，具体内容由各镜像站提供。</p><p>本站获得了中国教育和科研计算机网网络中心的支持和帮助。</p></div>",
   "language": "zh",
   "meta": {
-    "og:description": "教育网联合镜像站",
-    "description": "教育网联合镜像站"
+    "og:description": "校园网联合镜像站",
+    "description": "校园网联合镜像站"
   },
   "about": [
     "legacy",
