@@ -44,7 +44,8 @@
     "xtom-jp",
     "wsyu",
     "bupt",
-    "njtech"
+    "njtech",
+    "geekpie"
   ],
   "mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -104,6 +105,7 @@
     "wsyu",
     "bjtu",
     "bupt",
-    "njtech"
+    "njtech",
+    "geekpie"
   ]
 }

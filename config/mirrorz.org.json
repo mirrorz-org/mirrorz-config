@@ -45,7 +45,8 @@
     "xtom-jp",
     "wsyu",
     "bupt",
-    "njtech"
+    "njtech",
+    "geekpie"
   ],
   "mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -105,7 +106,8 @@
     "wsyu",
     "bjtu",
     "bupt",
-    "njtech"
+    "njtech",
+    "geekpie"
   ],
   "monitor_parser": [
     "lzu",
@@ -132,7 +134,8 @@
     "njupt",
     "bjtu",
     "bupt",
-    "njtech"
+    "njtech",
+    "geekpie"
   ],
   "monitor_mirrors": [
     "https://status.tuna.wiki/mirrorz/static/opentuna.json",
