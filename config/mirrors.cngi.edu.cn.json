@@ -30,7 +30,8 @@
     "xjtu",
     "wsyu",
     "bupt",
-    "njtech"
+    "njtech",
+    "geekpie"
   ],
   "mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -78,7 +79,8 @@
     "wsyu",
     "bjtu",
     "bupt",
-    "njtech"
+    "njtech",
+    "geekpie"
   ],
   "monitor_parser": [
     "nju",
@@ -95,7 +97,8 @@
     "njupt",
     "bjtu",
     "bupt",
-    "njtech"
+    "njtech",
+    "geekpie"
   ],
   "monitor_mirrors": [
     "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
