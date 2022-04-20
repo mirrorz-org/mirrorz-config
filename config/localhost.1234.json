@@ -23,7 +23,6 @@
     "njupt",
     "tongji",
     "cqu",
-    "uestc",
     "hit",
     "nju",
     "hust",
@@ -58,7 +57,8 @@
     "zju"     : "https://mirrors.zju.edu.cn/api/mirrorz.json",
     "sdu"     : "https://mirrors.sdu.edu.cn/mirrorz.json",
     "scau"    : "https://mirrors.scau.edu.cn/mirrorz.d.json",
-    "nyist"   : "https://mirror.nyist.edu.cn/mirrorz.json"
+    "nyist"   : "https://mirror.nyist.edu.cn/mirrorz.json",
+    "uestc"   : "https://uestclug.github.io/mirrors-status/mirrorz.d.json"
   },
   "upstream_legacy": [
     "tongji",
@@ -71,14 +71,14 @@
     "https://mirror.sjtu.edu.cn/mirrorz/zhiyuan.json",
     "https://mirrors.dgut.edu.cn/static/mirrorz.json",
     "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
-    "https://iptv.uestc.edu.cn/mirrors/mirrorz.json",
     "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
     "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
     "https://linux.xidian.edu.cn/mirrors/status.json",
     "https://mirrors.zju.edu.cn/api/mirrorz.json",
     "https://mirrors.sdu.edu.cn/mirrorz.json",
     "https://mirrors.scau.edu.cn/mirrorz.d.json",
-    "https://mirror.nyist.edu.cn/mirrorz.json"
+    "https://mirror.nyist.edu.cn/mirrorz.json",
+    "https://uestclug.github.io/mirrors-status/mirrorz.d.json"
   ],
   "upstream_parser": [
     "lzu",

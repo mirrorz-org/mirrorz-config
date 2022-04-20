@@ -20,7 +20,6 @@
     "bjtu",
     "njupt",
     "cqu",
-    "uestc",
     "hit",
     "nju",
     "neusoft",
@@ -45,7 +44,8 @@
     "zju"     : "https://mirrors.zju.edu.cn/api/mirrorz.json",
     "sdu"     : "https://mirrors.sdu.edu.cn/mirrorz.json",
     "scau"    : "https://mirrors.scau.edu.cn/mirrorz.d.json",
-    "nyist"   : "https://mirror.nyist.edu.cn/mirrorz.json"
+    "nyist"   : "https://mirror.nyist.edu.cn/mirrorz.json",
+    "uestc"   : "https://uestclug.github.io/mirrors-status/mirrorz.d.json"
   },
   "upstream_legacy": [
   ],
@@ -55,7 +55,6 @@
     "https://mirror.sjtu.edu.cn/mirrorz/zhiyuan.json",
     "https://mirrors.dgut.edu.cn/static/mirrorz.json",
     "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
-    "https://iptv.uestc.edu.cn/mirrors/mirrorz.json",
     "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
     "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
     "https://linux.xidian.edu.cn/mirrors/status.json",
@@ -108,7 +107,6 @@
     "https://mirror.sjtu.edu.cn/mirrorz/zhiyuan.json",
     "https://mirrors.dgut.edu.cn/static/mirrorz.json",
     "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
-    "https://iptv.uestc.edu.cn/mirrors/mirrorz.json",
     "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
     "https://mirrors.wsyu.edu.cn/.mirrorz/mirrorz.json",
     "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
@@ -116,7 +114,8 @@
     "https://mirrors.zju.edu.cn/api/mirrorz.json",
     "https://mirrors.sdu.edu.cn/mirrorz.json",
     "https://mirrors.scau.edu.cn/mirrorz.d.json",
-    "https://mirror.nyist.edu.cn/mirrorz.json"
+    "https://mirror.nyist.edu.cn/mirrorz.json",
+    "https://uestclug.github.io/mirrors-status/mirrorz.d.json"
   ],
   "d_mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -127,7 +126,8 @@
     "sdu"     : "https://mirrors.sdu.edu.cn/mirrorz.json",
     "siyuan"  : "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
     "zhiyuan" : "https://mirrors.sjtug.sjtu.edu.cn/mirrorz/zhiyuan.json",
-    "scau"    : "https://mirrors.scau.edu.cn/mirrorz.d.json"
+    "scau"    : "https://mirrors.scau.edu.cn/mirrorz.d.json",
+    "uestc"   : "https://uestclug.github.io/mirrors-status/mirrorz.d.json"
   },
   "d_parser": [
     "nju",
