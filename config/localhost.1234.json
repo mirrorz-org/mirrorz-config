@@ -21,14 +21,12 @@
     "bfsu",
     "bjtu",
     "njupt",
-    "tongji",
     "cqu",
     "hit",
     "nju",
     "hust",
     "neusoft",
     "lzu",
-    "neu",
     "pku",
     "byrio",
     "cqupt",
@@ -61,8 +59,6 @@
     "uestc"   : "https://uestclug.github.io/mirrors-status/mirrorz.d.json"
   },
   "upstream_legacy": [
-    "tongji",
-    "neu"
   ],
   "upstream_mirrors": [
     "https://status.tuna.wiki/mirrorz/static/opentuna.json",
