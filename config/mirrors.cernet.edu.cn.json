@@ -27,6 +27,7 @@
     "cqupt",
     "ynuosa",
     "xjtu",
+    "wsyu",
     "bupt",
     "njtech",
     "geekpie"
@@ -78,6 +79,7 @@
     "ynuosa",
     "xjtu",
     "njupt",
+    "wsyu",
     "bjtu",
     "bupt",
     "njtech",
@@ -108,6 +110,7 @@
     "https://mirrors.dgut.edu.cn/static/mirrorz.json",
     "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
     "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
+    "https://mirrors.wsyu.edu.cn/.mirrorz/mirrorz.json",
     "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
     "https://linux.xidian.edu.cn/mirrors/status.json",
     "https://mirrors.zju.edu.cn/api/mirrorz.json",
