@@ -26,7 +26,6 @@
     "nju",
     "hust",
     "neusoft",
-    "lzu",
     "pku",
     "byrio",
     "cqupt",
@@ -56,7 +55,8 @@
     "sdu"     : "https://mirrors.sdu.edu.cn/mirrorz.json",
     "scau"    : "https://mirrors.scau.edu.cn/mirrorz.d.json",
     "nyist"   : "https://mirror.nyist.edu.cn/mirrorz.json",
-    "uestc"   : "https://uestclug.github.io/mirrors-status/mirrorz.d.json"
+    "uestc"   : "https://uestclug.github.io/mirrors-status/mirrorz.d.json",
+    "lzu"     : "https://mirror.lzu.edu.cn/.mirrorz.json"
   },
   "upstream_legacy": [
   ],
@@ -74,10 +74,10 @@
     "https://mirrors.sdu.edu.cn/mirrorz.json",
     "https://mirrors.scau.edu.cn/mirrorz.d.json",
     "https://mirror.nyist.edu.cn/mirrorz.json",
-    "https://uestclug.github.io/mirrors-status/mirrorz.d.json"
+    "https://uestclug.github.io/mirrors-status/mirrorz.d.json",
+    "https://mirror.lzu.edu.cn/.mirrorz.json"
   ],
   "upstream_parser": [
-    "lzu",
     "nju",
     "neusoft",
     "tuna",
