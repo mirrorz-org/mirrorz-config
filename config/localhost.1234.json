@@ -40,7 +40,8 @@
     "wsyu",
     "bupt",
     "njtech",
-    "geekpie"
+    "geekpie",
+    "qlut"
   ],
   "mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -102,6 +103,7 @@
     "bjtu",
     "bupt",
     "njtech",
-    "geekpie"
+    "geekpie",
+    "qlut"
   ]
 }
