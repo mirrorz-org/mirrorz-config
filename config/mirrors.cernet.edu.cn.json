@@ -133,7 +133,8 @@
     "siyuan"  : "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
     "zhiyuan" : "https://mirrors.sjtug.sjtu.edu.cn/mirrorz/zhiyuan.json",
     "scau"    : "https://mirrors.scau.edu.cn/mirrorz.d.json",
-    "uestc"   : "https://uestclug.github.io/mirrors-status/mirrorz.d.json"
+    "uestc"   : "https://uestclug.github.io/mirrors-status/mirrorz.d.json",
+    "jlu"     : "https://mirrors.jlu.edu.cn/_api/mirrorz.json"
   },
   "d_parser": [
     "nju",
