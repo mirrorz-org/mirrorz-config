@@ -57,7 +57,7 @@
     "nyist"   : "https://mirror.nyist.edu.cn/mirrorz.json",
     "uestc"   : "https://uestclug.github.io/mirrors-status/mirrorz.d.json",
     "lzu"     : "https://mirror.lzu.edu.cn/.mirrorz.json",
-    "jlu"     : "https://mirrors6.jlu.edu.cn/_api/mirrorz.json"
+    "jlu"     : "https://mirrors.jlu.edu.cn/_api/mirrorz.json"
   },
   "upstream_legacy": [
   ],
@@ -76,7 +76,7 @@
     "https://mirror.nyist.edu.cn/mirrorz.json",
     "https://uestclug.github.io/mirrors-status/mirrorz.d.json",
     "https://mirror.lzu.edu.cn/.mirrorz.json",
-    "https://mirrors6.jlu.edu.cn/_api/mirrorz.json"
+    "https://mirrors.jlu.edu.cn/_api/mirrorz.json"
   ],
   "upstream_parser": [
     "nju",
