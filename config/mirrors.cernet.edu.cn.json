@@ -1,5 +1,6 @@
 {
   "url": "https://mirrors.cernet.edu.cn",
+  "mirrors_help_url": "https://help.mirrors.cernet.edu.cn",
   "display": "校园网联合镜像站",
   "display_legacy": "校园网联合镜像站",
   "intro": "<div><p>本站提供对校园网镜像站的索引和跳转服务。</p><p>本站仅索引各镜像站的元数据信息，具体内容由各镜像站提供。</p><p>本站获得了中国教育和科研计算机网网络中心的支持和帮助。</p></div>",
@@ -9,6 +10,7 @@
     "description": "校园网联合镜像站"
   },
   "about": [
+    "mirrors_help",
     "legacy",
     "monitor",
     "oh-my-mirrorz",

@@ -1,5 +1,6 @@
 {
   "url": "https://mirrorz.org",
+  "mirrors_help_url": "https://mirrors.help",
   "display": "MirrorZ.org",
   "display_legacy": "MirrorZ.org - Legacy",
   "intro": "<div><p>\"Your next MirrorS is not MirrorS, nor MirrorSes, it's MirrorZ.\"</p><p>\"A final site for Mirror sites.\"</p></div>",
@@ -10,6 +11,7 @@
     "keywords": "mirrorz,mirrors,mirror,mirror site,linux,open source"
   },
   "about": [
+    "mirrors_help",
     "legacy",
     "monitor",
     "oh-my-mirrorz",
