@@ -1,5 +1,6 @@
 {
   "url": "https://mirrors.cernet.edu.cn",
+  "mirrors_help_url": "https://help.mirrors.cernet.edu.cn",
   "display": "校园网联合镜像站",
   "display_legacy": "校园网联合镜像站",
   "intro": "<div><p>本站提供对校园网镜像站的索引和跳转服务。</p><p>本站仅索引各镜像站的元数据信息，具体内容由各镜像站提供。</p><p>本站获得了中国教育和科研计算机网网络中心的支持和帮助。</p></div>",
@@ -9,6 +10,7 @@
     "description": "校园网联合镜像站"
   },
   "about": [
+    "mirrors_help",
     "legacy",
     "monitor",
     "oh-my-mirrorz",
@@ -34,23 +36,22 @@
     "qlut"
   ],
   "mirrors": {
-    "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
-    "siyuan"  : "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
-    "zhiyuan" : "https://mirrors.sjtug.sjtu.edu.cn/mirrorz/zhiyuan.json",
-    "sustech" : "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
-    "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
-    "iscas"   : "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
-    "xidian"  : "https://linux.xidian.edu.cn/mirrors/status.json",
-    "zju"     : "https://mirrors.zju.edu.cn/api/mirrorz.json",
-    "sdu"     : "https://mirrors.sdu.edu.cn/mirrorz.json",
-    "scau"    : "https://mirrors.scau.edu.cn/mirrorz.d.json",
-    "nyist"   : "https://mirror.nyist.edu.cn/mirrorz.json",
-    "uestc"   : "https://uestclug.github.io/mirrors-status/mirrorz.d.json",
-    "lzu"     : "https://mirror.lzu.edu.cn/.mirrorz.json",
-    "jlu"     : "https://mirrors.jlu.edu.cn/_api/mirrorz.json"
+    "ustc": "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
+    "siyuan": "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
+    "zhiyuan": "https://mirrors.sjtug.sjtu.edu.cn/mirrorz/zhiyuan.json",
+    "sustech": "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
+    "nwafu": "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
+    "iscas": "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
+    "xidian": "https://linux.xidian.edu.cn/mirrors/status.json",
+    "zju": "https://mirrors.zju.edu.cn/api/mirrorz.json",
+    "sdu": "https://mirrors.sdu.edu.cn/mirrorz.json",
+    "scau": "https://mirrors.scau.edu.cn/mirrorz.d.json",
+    "nyist": "https://mirror.nyist.edu.cn/mirrorz.json",
+    "uestc": "https://uestclug.github.io/mirrors-status/mirrorz.d.json",
+    "lzu": "https://mirror.lzu.edu.cn/.mirrorz.json",
+    "jlu": "https://mirrors.jlu.edu.cn/_api/mirrorz.json"
   },
-  "upstream_legacy": [
-  ],
+  "upstream_legacy": [],
   "upstream_mirrors": [
     "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
     "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
@@ -124,17 +125,17 @@
     "https://mirrors.jlu.edu.cn/_api/mirrorz.json"
   ],
   "d_mirrors": {
-    "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
-    "sustech" : "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
-    "nwafu"   : "https://mirrors.nwafu.edu.cn/api/mirrorz/mirrorz.d.json",
-    "xidian"  : "https://linux.xidian.edu.cn/mirrors/status.json",
-    "zju"     : "https://mirrors.zju.edu.cn/api/mirrorz.json",
-    "sdu"     : "https://mirrors.sdu.edu.cn/mirrorz.json",
-    "siyuan"  : "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
-    "zhiyuan" : "https://mirrors.sjtug.sjtu.edu.cn/mirrorz/zhiyuan.json",
-    "scau"    : "https://mirrors.scau.edu.cn/mirrorz.d.json",
-    "uestc"   : "https://uestclug.github.io/mirrors-status/mirrorz.d.json",
-    "jlu"     : "https://mirrors.jlu.edu.cn/_api/mirrorz.json"
+    "ustc": "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
+    "sustech": "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
+    "nwafu": "https://mirrors.nwafu.edu.cn/api/mirrorz/mirrorz.d.json",
+    "xidian": "https://linux.xidian.edu.cn/mirrors/status.json",
+    "zju": "https://mirrors.zju.edu.cn/api/mirrorz.json",
+    "sdu": "https://mirrors.sdu.edu.cn/mirrorz.json",
+    "siyuan": "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
+    "zhiyuan": "https://mirrors.sjtug.sjtu.edu.cn/mirrorz/zhiyuan.json",
+    "scau": "https://mirrors.scau.edu.cn/mirrorz.d.json",
+    "uestc": "https://uestclug.github.io/mirrors-status/mirrorz.d.json",
+    "jlu": "https://mirrors.jlu.edu.cn/_api/mirrorz.json"
   },
   "d_parser": [
     "nju",
