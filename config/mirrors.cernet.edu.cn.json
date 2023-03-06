@@ -17,6 +17,7 @@
     "302-go"
   ],
   "mirrors_legacy": [
+    "cernet",
     "tuna",
     "bfsu",
     "bjtu",
