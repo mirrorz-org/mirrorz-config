@@ -52,7 +52,7 @@
     "sdu"      : "https://mirrors.sdu.edu.cn/mirrorz.json",
     "scau"     : "https://mirrors.scau.edu.cn/mirrorz.d.json",
     "nyist"    : "https://mirror.nyist.edu.cn/mirrorz.json",
-    "uestc"    : "https://uestclug.github.io/mirrors-status/mirrorz.d.json",
+    "uestc"    : "https://uestclug.org/mirrors-status/mirrorz.d.json",
     "lzu"      : "https://mirror.lzu.edu.cn/.mirrorz.json",
     "jlu"      : "https://mirrors.jlu.edu.cn/_api/mirrorz.json",
     "opentuna" : "https://status.tuna.wiki/mirrorz/static/opentuna.json"
@@ -72,7 +72,7 @@
     "https://mirrors.sdu.edu.cn/mirrorz.json",
     "https://mirrors.scau.edu.cn/mirrorz.d.json",
     "https://mirror.nyist.edu.cn/mirrorz.json",
-    "https://uestclug.github.io/mirrors-status/mirrorz.d.json",
+    "https://uestclug.org/mirrors-status/mirrorz.d.json",
     "https://mirror.lzu.edu.cn/.mirrorz.json",
     "https://mirrors.jlu.edu.cn/_api/mirrorz.json"
   ],
