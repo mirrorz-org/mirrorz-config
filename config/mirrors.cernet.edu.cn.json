@@ -3,7 +3,7 @@
   "mirrors_help_url": "https://help.mirrors.cernet.edu.cn",
   "display": "校园网联合镜像站",
   "display_legacy": "校园网联合镜像站",
-  "intro": "<div><p>本站提供对校园网镜像站的索引和跳转服务。</p><p>本站仅索引各镜像站的元数据信息，具体内容由各镜像站提供。</p><p>本站获得了中国教育和科研计算机网网络中心的支持和帮助。</p></div>",
+  "intro": "<div><p>本站提供对校园网镜像站的索引和跳转服务。</p><p>本站仅索引各镜像站的元数据信息，具体内容由各镜像站提供。</p><p>本站获得了中国教育和科研计算机网网络中心的支持和帮助。</p><p>本站的跳转服务由 <a href=\"https://www.ipip.net/\" target=\"_blank\">IPIP.NET</a> 的 Geo-IP 数据库提供支持，在这里感谢 <a href=\"https://www.ipip.net/\" target=\"_blank\">IPIP.NET</a> 的帮助。</p></div>",
   "language": "zh",
   "meta": {
     "og:description": "校园网联合镜像站",
