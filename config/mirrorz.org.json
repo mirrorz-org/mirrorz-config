@@ -42,7 +42,8 @@
     "bupt",
     "njtech",
     "geekpie",
-    "qlut"
+    "qlut",
+    "nyist"
   ],
   "mirrors": {
     "ustc"     : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -55,7 +56,6 @@
     "zju"      : "https://mirrors.zju.edu.cn/api/mirrorz.json",
     "sdu"      : "https://mirrors.sdu.edu.cn/mirrorz.json",
     "scau"     : "https://mirrors.scau.edu.cn/mirrorz.d.json",
-    "nyist"    : "https://mirror.nyist.edu.cn/mirrorz.json",
     "uestc"    : "https://uestclug.org/mirrors-status/mirrorz.d.json",
     "lzu"      : "https://mirror.lzu.edu.cn/.mirrorz.json",
     "jlu"      : "https://mirrors.jlu.edu.cn/_api/mirrorz.json",
@@ -75,7 +75,6 @@
     "https://mirrors.zju.edu.cn/api/mirrorz.json",
     "https://mirrors.sdu.edu.cn/mirrorz.json",
     "https://mirrors.scau.edu.cn/mirrorz.d.json",
-    "https://mirror.nyist.edu.cn/mirrorz.json",
     "https://uestclug.org/mirrors-status/mirrorz.d.json",
     "https://mirror.lzu.edu.cn/.mirrorz.json",
     "https://mirrors.jlu.edu.cn/_api/mirrorz.json"
@@ -106,7 +105,8 @@
     "bupt",
     "njtech",
     "geekpie",
-    "qlut"
+    "qlut",
+    "nyist"
   ],
   "monitor_parser": [
     "nju",
@@ -132,7 +132,8 @@
     "bupt",
     "njtech",
     "geekpie",
-    "qlut"
+    "qlut",
+    "nyist"
   ],
   "monitor_mirrors": [
     "https://status.tuna.wiki/mirrorz/static/opentuna.json",
@@ -147,7 +148,6 @@
     "https://mirrors.zju.edu.cn/api/mirrorz.json",
     "https://mirrors.sdu.edu.cn/mirrorz.json",
     "https://mirrors.scau.edu.cn/mirrorz.d.json",
-    "https://mirror.nyist.edu.cn/mirrorz.json",
     "https://uestclug.org/mirrors-status/mirrorz.d.json",
     "https://mirror.lzu.edu.cn/.mirrorz.json",
     "https://mirrors.jlu.edu.cn/_api/mirrorz.json"
