@@ -9,6 +9,7 @@
     "description": "A final site for Mirror sites.",
     "keywords": "mirrorz,mirrors,mirror,mirror site,linux,open source"
   },
+  "mirrorz_help": "https://mirrorz.help",
   "about": [
     "legacy",
     "oh-my-mirrorz",
