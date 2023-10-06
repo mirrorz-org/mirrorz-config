@@ -40,7 +40,8 @@
     "njtech",
     "geekpie",
     "qlut",
-    "nyist"
+    "nyist",
+    "jcut"
   ],
   "mirrors": {
     "ustc"     : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -102,6 +103,8 @@
     "njtech",
     "geekpie",
     "qlut",
-    "nyist"
+    "nyist",
+    "jcut"
+
   ]
 }
