@@ -43,7 +43,8 @@
     "njtech",
     "geekpie",
     "qlut",
-    "nyist"
+    "nyist",
+    "jcut"
   ],
   "mirrors": {
     "ustc"     : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -106,7 +107,8 @@
     "njtech",
     "geekpie",
     "qlut",
-    "nyist"
+    "nyist",
+    "jcut"
   ],
   "monitor_parser": [
     "nju",
@@ -133,7 +135,8 @@
     "njtech",
     "geekpie",
     "qlut",
-    "nyist"
+    "nyist",
+    "jcut"
   ],
   "monitor_mirrors": [
     "https://status.tuna.wiki/mirrorz/static/opentuna.json",
