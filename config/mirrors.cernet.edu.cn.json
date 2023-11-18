@@ -27,7 +27,6 @@
     "nju",
     "neusoft",
     "pku",
-    "cqupt",
     "ynuosa",
     "xjtu",
     "wsyu",
@@ -51,7 +50,8 @@
     "scau"    : "https://mirrors.scau.edu.cn/mirrorz.d.json",
     "uestc"   : "https://uestclug.org/mirrors-status/mirrorz.d.json",
     "lzu"     : "https://mirror.lzu.edu.cn/.mirrorz.json",
-    "jlu"     : "https://mirrors.jlu.edu.cn/_api/mirrorz.json"
+    "jlu"     : "https://mirrors.jlu.edu.cn/_api/mirrorz.json",
+    "cqupt"   : "https://mirrors.cqupt.edu.cn/api/mirrorz.json"
   },
   "upstream_legacy": [
   ],
@@ -68,7 +68,8 @@
     "https://mirrors.scau.edu.cn/mirrorz.d.json",
     "https://mirror.lzu.edu.cn/.mirrorz.json",
     "https://mirrors.jlu.edu.cn/_api/mirrorz.json",
-    "https://uestclug.org/mirrors-status/mirrorz.d.json"
+    "https://uestclug.org/mirrors-status/mirrorz.d.json",
+    "https://mirrors.cqupt.edu.cn/api/mirrorz.json"
   ],
   "upstream_parser": [
     "nju",
@@ -80,7 +81,6 @@
     "hit",
     "cqu",
     "pku",
-    "cqupt",
     "ynuosa",
     "xjtu",
     "njupt",
@@ -103,7 +103,6 @@
     "cqu",
     "xjtu",
     "pku",
-    "cqupt",
     "ynuosa",
     "njupt",
     "bjtu",
@@ -128,7 +127,8 @@
     "https://mirrors.scau.edu.cn/mirrorz.d.json",
     "https://uestclug.org/mirrors-status/mirrorz.d.json",
     "https://mirror.lzu.edu.cn/.mirrorz.json",
-    "https://mirrors.jlu.edu.cn/_api/mirrorz.json"
+    "https://mirrors.jlu.edu.cn/_api/mirrorz.json",
+    "https://mirrors.cqupt.edu.cn/api/mirrorz.json"
   ],
   "d_mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -142,7 +142,8 @@
     "scau"    : "https://mirrors.scau.edu.cn/mirrorz.d.json",
     "uestc"   : "https://uestclug.org/mirrors-status/mirrorz.d.json",
     "jlu"     : "https://mirrors.jlu.edu.cn/_api/mirrorz.json",
-    "iscas"   : "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json"
+    "iscas"   : "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
+    "cqupt"   : "https://mirrors.cqupt.edu.cn/api/mirrorz.json"
   },
   "d_parser": [
     "nju",

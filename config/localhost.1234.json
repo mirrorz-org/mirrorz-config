@@ -26,7 +26,6 @@
     "nju",
     "neusoft",
     "pku",
-    "cqupt",
     "ynuosa",
     "xjtu",
     "xtom",
@@ -57,7 +56,8 @@
     "uestc"    : "https://uestclug.org/mirrors-status/mirrorz.d.json",
     "lzu"      : "https://mirror.lzu.edu.cn/.mirrorz.json",
     "jlu"      : "https://mirrors.jlu.edu.cn/_api/mirrorz.json",
-    "opentuna" : "https://status.tuna.wiki/mirrorz/static/opentuna.json"
+    "opentuna" : "https://status.tuna.wiki/mirrorz/static/opentuna.json",
+    "cqupt"    : "https://mirrors.cqupt.edu.cn/api/mirrorz.json"
   },
   "upstream_legacy": [
   ],
@@ -75,7 +75,8 @@
     "https://mirrors.scau.edu.cn/mirrorz.d.json",
     "https://uestclug.org/mirrors-status/mirrorz.d.json",
     "https://mirror.lzu.edu.cn/.mirrorz.json",
-    "https://mirrors.jlu.edu.cn/_api/mirrorz.json"
+    "https://mirrors.jlu.edu.cn/_api/mirrorz.json",
+    "https://mirrors.cqupt.edu.cn/api/mirrorz.json"
   ],
   "upstream_parser": [
     "nju",
@@ -87,7 +88,6 @@
     "hit",
     "cqu",
     "pku",
-    "cqupt",
     "ynuosa",
     "xjtu",
     "xtom-hk",
