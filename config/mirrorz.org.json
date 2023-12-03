@@ -59,13 +59,11 @@
     "uestc"    : "https://uestclug.org/mirrors-status/mirrorz.d.json",
     "lzu"      : "https://mirror.lzu.edu.cn/.mirrorz.json",
     "jlu"      : "https://mirrors.jlu.edu.cn/_api/mirrorz.json",
-    "opentuna" : "https://status.tuna.wiki/mirrorz/static/opentuna.json",
     "cqupt"    : "https://mirrors.cqupt.edu.cn/api/mirrorz.json"
   },
   "upstream_legacy": [
   ],
   "upstream_mirrors": [
-    "https://status.tuna.wiki/mirrorz/static/opentuna.json",
     "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
     "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
     "https://mirror.sjtu.edu.cn/mirrorz/zhiyuan.json",
@@ -138,7 +136,6 @@
     "jcut"
   ],
   "monitor_mirrors": [
-    "https://status.tuna.wiki/mirrorz/static/opentuna.json",
     "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
     "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
     "https://mirror.sjtu.edu.cn/mirrorz/zhiyuan.json",
