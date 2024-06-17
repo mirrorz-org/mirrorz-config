@@ -44,14 +44,14 @@
     "geekpie",
     "qlut",
     "nyist",
-    "jcut"
+    "jcut",
+    "nwafu"
   ],
   "mirrors": {
     "ustc"     : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
     "siyuan"   : "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
     "zhiyuan"  : "https://mirrors.sjtug.sjtu.edu.cn/mirrorz/zhiyuan.json",
     "sustech"  : "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
-    "nwafu"    : "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
     "iscas"    : "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
     "xidian"   : "https://linux.xidian.edu.cn/mirrors/status.json",
     "zju"      : "https://mirrors.zju.edu.cn/api/mirrorz.json",
@@ -69,7 +69,6 @@
     "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
     "https://mirror.sjtu.edu.cn/mirrorz/zhiyuan.json",
     "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
-    "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
     "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
     "https://linux.xidian.edu.cn/mirrors/status.json",
     "https://mirrors.zju.edu.cn/api/mirrorz.json",
@@ -108,7 +107,8 @@
     "geekpie",
     "qlut",
     "nyist",
-    "jcut"
+    "jcut",
+    "nwafu"
   ],
   "monitor_parser": [
     "nju",
@@ -136,14 +136,14 @@
     "geekpie",
     "qlut",
     "nyist",
-    "jcut"
+    "jcut",
+    "nwafu"
   ],
   "monitor_mirrors": [
     "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
     "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
     "https://mirror.sjtu.edu.cn/mirrorz/zhiyuan.json",
     "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
-    "https://mirrors.nwafu.edu.cn/api/mirrorz/info.json",
     "https://mirrors.wsyu.edu.cn/.mirrorz/mirrorz.json",
     "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
     "https://linux.xidian.edu.cn/mirrors/status.json",
