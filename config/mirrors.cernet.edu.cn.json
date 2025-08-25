@@ -135,8 +135,6 @@
     "sustech" : "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
     "xidian"  : "https://linux.xidian.edu.cn/mirrors/status.json",
     "zju"     : "https://mirrors.zju.edu.cn/api/mirrorz.json",
-    "siyuan"  : "https://mirror.sjtu.edu.cn/mirrorz/siyuan.json",
-    "zhiyuan" : "https://mirrors.sjtug.sjtu.edu.cn/mirrorz/zhiyuan.json",
     "scau"    : "https://mirrors.scau.edu.cn/mirrorz.d.json",
     "uestc"   : "https://uestclug.org/mirrors-status/mirrorz.d.json",
     "jlu"     : "https://mirrors.jlu.edu.cn/_api/mirrorz.json",
@@ -158,6 +156,8 @@
     "geekpie",
     "lzu",
     "jcut",
-    "sdu"
+    "sdu",
+    "siyuan",
+    "zhiyuan"
   ]
 }
