@@ -42,7 +42,8 @@
     "qlut",
     "nyist",
     "jcut",
-    "nwafu"
+    "nwafu",
+    "hust"
   ],
   "mirrors": {
     "ustc"     : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -104,6 +105,7 @@
     "qlut",
     "nyist",
     "jcut",
-    "nwafu"
+    "nwafu",
+    "hust"
   ]
 }
