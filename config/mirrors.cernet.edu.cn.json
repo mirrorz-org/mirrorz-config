@@ -37,7 +37,8 @@
     "nyist",
     "jcut",
     "nwafu",
-    "hust"
+    "hust",
+    "ha"
   ],
   "mirrors": {
     "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
@@ -93,7 +94,8 @@
     "nyist",
     "jcut",
     "nwafu",
-    "hust"
+    "hust",
+    "ha"
   ],
   "monitor_parser": [
     "nju",
@@ -115,7 +117,8 @@
     "nyist",
     "jcut",
     "nwafu",
-    "hust"
+    "hust",
+    "ha"
   ],
   "monitor_mirrors": [
     "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
