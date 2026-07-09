@@ -143,8 +143,7 @@
     "scau"    : "https://mirrors.scau.edu.cn/mirrorz.d.json",
     "uestc"   : "https://uestclug.org/mirrors-status/mirrorz.d.json",
     "jlu"     : "https://mirrors.jlu.edu.cn/_api/mirrorz.json",
-    "iscas"   : "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json",
-    "cqupt"   : "https://mirrors.cqupt.edu.cn/api/mirrorz.json"
+    "iscas"   : "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json"
   },
   "d_parser": [
     "nju",
@@ -155,6 +154,7 @@
     "bjtu",
     "xjtu",
     "cqu",
+    "cqupt",
     "qlut",
     "nyist",
     "jcut",
