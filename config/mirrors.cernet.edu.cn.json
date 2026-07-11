@@ -137,7 +137,6 @@
     "https://mirrors.cqupt.edu.cn/api/mirrorz.json"
   ],
   "d_mirrors": {
-    "ustc"    : "https://mirrors.ustc.edu.cn/static/json/mirrorz.json",
     "sustech" : "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
     "xidian"  : "https://linux.xidian.edu.cn/mirrors/status.json",
     "scau"    : "https://mirrors.scau.edu.cn/mirrorz.d.json",
@@ -163,6 +162,7 @@
     "jcut",
     "sdu",
     "siyuan",
+    "ustc",
     "zhiyuan",
     "zju"
   ]
