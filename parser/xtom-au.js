@@ -1,9 +1,10 @@
 const tunasync = require("./tunasync");
 const isoinfo = require("./isoinfo");
 const disk = require("./disk");
+const loadSite = require("./site");
 
-module.exports = async function (siteUrl) {
-  const site = await (await fetch(siteUrl)).json();
+module.exports = async function (siteSource) {
+  const site = await loadSite(siteSource);
   site["disk"] = await disk("https://mirrors.xtom.au/static/status/disk.json");
 
   const mirrors = await tunasync("https://mirrors.xtom.au/static/tunasync.json");

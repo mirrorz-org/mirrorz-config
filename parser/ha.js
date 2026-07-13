@@ -1,9 +1,10 @@
 const tunasync = require("./tunasync");
 const options = require("./options");
 const isoinfo = require("./isoinfo");
+const loadSite = require("./site");
 
-module.exports = async function (siteUrl) {
-  const site = await (await fetch(siteUrl)).json();
+module.exports = async function (siteSource) {
+  const site = await loadSite(siteSource);
   let mirrors = await tunasync(
     "https://mirrors.ha.edu.cn/static/tunasync.json",
   );

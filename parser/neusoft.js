@@ -1,4 +1,5 @@
 const cname = require("./utils").cname;
+const loadSite = require("./site");
 
 const statusConverter = function(time, status) {
   let c = "S";
@@ -16,9 +17,9 @@ const human = function(size) {
   return size.toFixed(2) + scale[i];
 }
 
-module.exports = async function (siteUrl) {
+module.exports = async function (siteSource) {
   const name_func = await cname();
-  const site = await (await fetch(siteUrl)).json();
+  const site = await loadSite(siteSource);
   const repos = await (await fetch("https://mirrors.neusoft.edu.cn/index.json")).json();
 
   const mirrors = [{

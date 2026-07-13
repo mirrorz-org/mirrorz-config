@@ -37,7 +37,9 @@ const config = require('../config.json')
 
 const lint = require('./lint')
 
-const site = (abbr) => config.url + '/static/json/site/' + abbr + '.json';
+const site = (abbr) => {
+  return require("../json-site/" + abbr + ".json");
+};
 
 module.exports = {
   "nju"     : async () => lint(await nju     (                )),
@@ -69,7 +71,7 @@ module.exports = {
   "njtech"  : async () => lint(await njtech  (site("njtech"  ))),
   "geekpie" : async () => lint(await geekpie (site("geekpie" ))),
   "qlut"    : async () => lint(await qlut    (site("qlut"    ))),
-  "nyist"   : async () => lint(await nyist   (site("nyist"      ))),
+  "nyist"   : async () => lint(await nyist   (site("nyist"   ))),
   "jcut"    : async () => lint(await jcut    (site("jcut"    ))),
   "nwafu"   : async () => lint(await nwafu   (site("nwafu"   ))),
   "hust"    : async () => lint(await hust    (site("hust"    ))),

@@ -1,7 +1,8 @@
 const tunasync = require("./tunasync");
+const loadSite = require("./site");
 
-module.exports = async function (siteUrl) {
-  const site = await (await fetch(siteUrl)).json();
+module.exports = async function (siteSource) {
+  const site = await loadSite(siteSource);
   const mirrors = await tunasync("https://mirrors.hust.edu.cn/status.json");
 
   return {

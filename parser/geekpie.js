@@ -1,4 +1,5 @@
 const cname = require("./utils").cname;
+const loadSite = require("./site");
 
 const statusConverter = function(s) {
   let c = "S";
@@ -17,9 +18,9 @@ const TYPE_DICT = {
   'font': 'font',
 }
 
-module.exports = async function (siteUrl) {
+module.exports = async function (siteSource) {
   const name_func = await cname();
-  const site = await (await fetch(siteUrl)).json();
+  const site = await loadSite(siteSource);
   const summary = await (await fetch("https://mirrors.shanghaitech.edu.cn/summary")).json();
   const downloads = await (await fetch("https://mirrors.shanghaitech.edu.cn/downloads")).json();
 

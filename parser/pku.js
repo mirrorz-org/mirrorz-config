@@ -1,4 +1,5 @@
 const cname = require("./utils").cname;
+const loadSite = require("./site");
 
 const MAP = {
   done: "S",
@@ -26,9 +27,9 @@ const human = function(size) {
   return size.toFixed(2) + scale[i];
 }
 
-module.exports = async function (siteUrl) {
+module.exports = async function (siteSource) {
   const name_func = await cname();
-  const site = await (await fetch(siteUrl)).json();
+  const site = await loadSite(siteSource);
   const disk = await (await fetch("https://mirrors.pku.edu.cn/monitor_device_status/disk_space.json")).json();
   site.disk = human(disk.result.data.slice(-1)[0][1]) + "/" + human(disk.result.data.slice(-1)[0][1] + disk.result.data.slice(-1)[0][2]);
 

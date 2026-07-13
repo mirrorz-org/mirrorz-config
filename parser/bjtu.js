@@ -1,9 +1,10 @@
 const cname = require("./utils").cname;
 const ideal_mirror = require("./ideal-mirror");
+const loadSite = require("./site");
 
-module.exports = async function (siteUrl) {
+module.exports = async function (siteSource) {
   const name_func = await cname();
-  const site = await (await fetch(siteUrl)).json();
+  const site = await loadSite(siteSource);
   const ideal = await ideal_mirror("https://mirror.bjtu.edu.cn/status/task_status.json");
   const desc_help = await (await fetch("https://mirror.bjtu.edu.cn/help/desc_help.json")).json();
 
