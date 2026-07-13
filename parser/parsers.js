@@ -33,7 +33,7 @@ const nwafu = require("./nwafu");
 const hust = require("./hust");
 const ha = require("./ha");
 
-const config = require('./config.json')
+const config = require('../config.json')
 
 const lint = require('./lint')
 

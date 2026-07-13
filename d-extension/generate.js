@@ -1,9 +1,9 @@
 const fs = require("fs");
 
-const config = require("./config/config.json");
-const { init, load } = require("./parser/node");
+const config = require("../config.json");
+const { init, load } = require("../parser/node");
 init(config, "mirrorz-d-extension"); // global.fetch, global.DOMParser, global.Timeout, global.timeout
-const parsers = require("./parser/parsers");
+const parsers = require("../parser/parsers");
 const custom = require("./custom");
 
 const LIST = {

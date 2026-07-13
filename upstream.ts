@@ -1,4 +1,5 @@
-import parsers, { Parser } from "../parser";
+import parsers, { Parser } from "./parser";
+// symlink ./config.json to config/<what you want>.json
 import config from "./config.json";
 
 const upstreams: (string | Parser)[] =
