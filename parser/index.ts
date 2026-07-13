@@ -1,6 +1,4 @@
-import { Mirrorz } from "../schema";
-
 import parsers from "./parsers";
 
-export type Parser = () => Promise<Mirrorz>;
+export type Parser = () => Promise<unknown>;
 export default parsers;

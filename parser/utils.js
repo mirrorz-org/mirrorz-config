@@ -1,4 +1,4 @@
-const config = require('./config.json');
+const config = require('../config.json');
 var cname;
 
 exports.cname = async function() {
