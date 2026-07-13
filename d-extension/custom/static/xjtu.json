@@ -1,0 +1,45 @@
+[
+  {
+    "label": "xjtu",
+    "_label": "Xi'an Jiaotong University Network and China Education and Research Network of Shaanxi Province",
+    "public": true,
+    "resolve": "mirrors.xjtu.edu.cn",
+    "range": [
+      "COUNTRY:CN",
+      "REGION:SN",
+      "ISP:CERNET",
+      "49.208.0.0/17",
+      "58.206.96.0/19",
+      "115.154.0.0/16",
+      "202.200.224.0/20",
+      "202.117.0.0/18",
+      "202.117.160.0/20",
+      "202.117.192.0/19",
+      "219.245.32.0/20",
+      "219.245.128.0/18",
+      "2001:250:1001::/48"
+    ],
+    "_range": [
+      "49.208.0.0/17 AS4538 China Education and Research Network",
+      "58.206.96.0/19 AS4538 China Education and Research Network",
+      "115.154.0.0/16 AS4538 China Education and Research Network",
+      "202.200.224.0/20 AS4538 China Education and Research Network",
+      "202.117.0.0/18 AS4538 China Education and Research Network",
+      "202.117.160.0/20 AS4538 Xi'an Medical University",
+      "202.117.192.0/21 AS4538 Shaanxi Institute of EducationChina",
+      "202.117.192.0/24 AS4538 Shaanxi Institute of EducationChina",
+      "202.117.200.0/21 AS4538 Shaan Xi Institute of Finance and Economics",
+      "202.117.208.0/20 AS4538 Xi'an JiaoTong University",
+      "219.245.32.0/20 AS4538 China Education and Research Network",
+      "219.245.128.0/19 AS4538 China Education and Research Network",
+      "219.245.160.0/19 AS4538 China Education and Research Network",
+      "2001:250:1001::/48 AS24353 CERNET IPv6 Backbone"
+    ],
+    "filter": [
+      "V4",
+      "V6",
+      "SSL",
+      "NOSSL"
+    ]
+  }
+]

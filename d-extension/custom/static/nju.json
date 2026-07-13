@@ -1,0 +1,9 @@
+[
+  {
+    "label": "nju",
+    "public": true,
+    "resolve": "mirror.nju.edu.cn",
+    "filter": ["V4", "V6", "NOSSL", "SSL"],
+    "range": ["COUNTRY:CN", "REGION:JS", "ISP:CERNET"]
+  }
+]
