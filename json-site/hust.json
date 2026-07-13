@@ -1,0 +1,12 @@
+{
+    "url": "https://mirrors.hust.edu.cn",
+    "logo": "https://mirrors.hust.edu.cn/img/hust_logo.png",
+    "abbr": "HUST",
+    "name": "华中科技大学开源镜像站",
+    "homepage": "https://hust.openatom.club/",
+    "issue": "https://github.com/hust-open-atom-club/hust-mirrors/issues",
+    "request": "https://github.com/hust-open-atom-club/mirrorrequest/issues",
+    "email": "mirror_support@hust.edu.cn",
+    "group": "镜像站QQ群：1072375488",
+    "disk": "112T"
+}

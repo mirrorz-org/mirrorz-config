@@ -1,0 +1,31 @@
+[
+    {
+        "label": "qlut",
+        "public": true,
+        "resolve": "mirrors.qlu.edu.cn",
+        "filter": [
+            "V4",
+            "SSL",
+            "NOSSL"
+        ],
+        "range": [
+            "COUNTRY:CN",
+            "REGION:SD",
+            "ISP:CERNET"
+        ]
+    },
+    {
+        "label": "qlut6",
+        "public": true,
+        "resolve": "mirrors.qlu.edu.cn",
+        "filter": [
+            "V6",
+            "NOSSL"
+        ],
+        "range": [
+            "COUNTRY:CN",
+            "REGION:SD",
+            "ISP:CERNET"
+        ]
+    }
+]

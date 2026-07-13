@@ -1,0 +1,10 @@
+{
+    "url": "https://mirrors.xjtu.edu.cn",
+    "logo": "https://mirrors.xjtu.edu.cn/assets/img/icon.20210917.svg",
+    "logo_darkmode": "https://mirrors.xjtu.edu.cn/assets/img/icon-white.20210917.svg",
+    "abbr": "XJTU",
+    "name": "西安交通大学软件镜像站",
+    "homepage": "https://xjtuana.com",
+    "email": "mirrors at xjtu dot edu dot cn",
+    "issue": "https://github.com/openana/mirrors.xjtu.edu.cn/issues"
+}

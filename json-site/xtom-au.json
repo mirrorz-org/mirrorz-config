@@ -1,0 +1,9 @@
+{
+    "url": "https://mirrors.xtom.au",
+    "logo": "https://xtom.com/logo.svg",
+    "logo_darkmode": "https://xtom.com/logo_dark.svg",
+    "abbr": "XTOM (AU)",
+    "name": "XTOM 开源软件镜像站（澳大利亚）",
+    "email": "mirror AT xtom DOT com",
+    "request": "https://github.com/xtomcom/mirrorrequest"
+}

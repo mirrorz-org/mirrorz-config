@@ -1,0 +1,48 @@
+[
+  {
+    "label": "bfsu",
+    "public": true,
+    "resolve": "mirrors.bfsu.edu.cn",
+    "range": [
+      "COUNTRY:CN",
+      "REGION:BJ",
+      "ISP:CERNET"
+    ],
+    "filter": [
+      "V4",
+      "V6",
+      "SSL",
+      "NOSSL"
+    ]
+  },
+  {
+    "label": "bfsu4",
+    "public": true,
+    "resolve": "mirrors4.bfsu.edu.cn",
+    "range": [
+      "COUNTRY:CN",
+      "REGION:BJ",
+      "ISP:CMCC"
+    ],
+    "filter": [
+      "V4",
+      "SSL",
+      "NOSSL"
+    ]
+  },
+  {
+    "label": "bfsu6",
+    "public": true,
+    "resolve": "mirrors6.bfsu.edu.cn",
+    "range": [
+     "COUNTRY:CN",
+     "REGION:BJ",
+     "ISP:CERNET"
+    ],
+    "filter": [
+      "V6",
+      "SSL",
+      "NOSSL"
+    ]
+  }
+]

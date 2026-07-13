@@ -1,0 +1,55 @@
+[
+  {
+    "label": "tuna",
+    "public": true,
+    "resolve": "mirrors.tuna.tsinghua.edu.cn",
+    "range": [
+      "COUNTRY:CN",
+      "REGION:BJ",
+      "ISP:CERNET"
+    ],
+    "filter": [
+      "V4",
+      "V6",
+      "SSL",
+      "NOSSL"
+    ]
+  },
+  {
+    "label": "tuna4",
+    "public": true,
+    "resolve": "mirrors4.tuna.tsinghua.edu.cn",
+    "range": [
+      "COUNTRY:CN",
+      "REGION:BJ",
+      "ISP:CERNET",
+      "166.111.0.0/16",
+      "59.66.0.0/16",
+      "101.5.0.0/16",
+      "101.6.0.0/16",
+      "183.172.0.0/16",
+      "183.173.0.0/16"
+    ],
+    "filter": [
+      "V4",
+      "SSL",
+      "NOSSL"
+    ]
+  },
+  {
+    "label": "tuna6",
+    "public": true,
+    "resolve": "mirrors6.tuna.tsinghua.edu.cn",
+    "range": [
+      "COUNTRY:CN",
+      "REGION:BJ",
+      "ISP:CERNET",
+      "2402:f000::/32"
+    ],
+    "filter": [
+      "V6",
+      "SSL",
+      "NOSSL"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+    "url": "https://mirrors.qlu.edu.cn",
+    "logo": "https://mirrors.qlu.edu.cn/static/img/logo-small@4x.png",
+    "abbr": "QLUT",
+    "name": "齐鲁工业大学开源软件镜像站",
+    "issue": "https://github.com/qlu-mirrors/issues",
+    "request": "https://github.com/qlu-mirrors/issues",
+    "big": "/speedtest/1000MB.bin"
+}
