@@ -1,9 +1,51 @@
 [
   {
     "label": "ustc",
-    "public": false,
+    "public": true,
     "resolve": "mirrors.ustc.edu.cn",
-    "filter": [],
-    "range": []
+    "filter": ["V4", "V6", "SSL", "NOSSL"],
+    "range": ["COUNTRY:CN", "REGION:AH"]
+  },
+  {
+    "label": "ustc6",
+    "public": true,
+    "resolve": "ipv6.mirrors.ustc.edu.cn",
+    "filter": ["V6", "SSL", "NOSSL"],
+    "range": ["COUNTRY:CN", "REGION:AH", "ISP:CERNET"]
+  },
+  {
+    "label": "ustc4",
+    "public": true,
+    "resolve": "ipv4.mirrors.ustc.edu.cn",
+    "filter": ["V4", "SSL", "NOSSL"],
+    "range": ["COUNTRY:CN", "REGION:AH"]
+  },
+  {
+    "label": "ustcchinanet",
+    "public": true,
+    "resolve": "chinanet.mirrors.ustc.edu.cn",
+    "filter": ["V4", "SSL", "NOSSL"],
+    "range": ["COUNTRY:CN", "REGION:AH", "ISP:CHINANET"]
+  },
+  {
+    "label": "ustccernet",
+    "public": true,
+    "resolve": "cernet.mirrors.ustc.edu.cn",
+    "filter": ["V4", "V6", "SSL", "NOSSL"],
+    "range": ["COUNTRY:CN", "REGION:AH", "ISP:CERNET"]
+  },
+  {
+    "label": "ustcunicom",
+    "public": true,
+    "resolve": "unicom.mirrors.ustc.edu.cn",
+    "filter": ["V4", "SSL", "NOSSL"],
+    "range": ["COUNTRY:CN", "REGION:AH", "ISP:UNICOM"]
+  },
+  {
+    "label": "ustccmcc",
+    "public": true,
+    "resolve": "cmcc.mirrors.ustc.edu.cn",
+    "filter": ["V4", "SSL", "NOSSL"],
+    "range": ["COUNTRY:CN", "REGION:AH", "ISP:CMCC"]
   }
 ]
