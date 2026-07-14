@@ -135,14 +135,6 @@
     "https://mirrors.jlu.edu.cn/_api/mirrorz.json",
     "https://mirrors.cqupt.edu.cn/api/mirrorz.json"
   ],
-  "d_mirrors": {
-    "sustech" : "https://mirrors.sustech.edu.cn/mirrorz/mirrorz.json",
-    "xidian"  : "https://linux.xidian.edu.cn/mirrors/status.json",
-    "scau"    : "https://mirrors.scau.edu.cn/mirrorz.d.json",
-    "uestc"   : "https://uestclug.org/mirrors-status/mirrorz.d.json",
-    "jlu"     : "https://mirrors.jlu.edu.cn/_api/mirrorz.json",
-    "iscas"   : "https://mirror.iscas.ac.cn/.mirrorz/mirrorz.json"
-  },
   "d_parser": [
     "nju",
     "nano",
@@ -163,6 +155,9 @@
     "siyuan",
     "ustc",
     "zhiyuan",
-    "zju"
+    "zju",
+    "sustech",
+    "uestc",
+    "jlu"
   ]
 }

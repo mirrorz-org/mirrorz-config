@@ -20,4 +20,7 @@ module.exports = {
   "zju"     : async (e) => file("zju",     e),
   "xjtu"    : async (e) => file("xjtu",    e),
   "nju"     : async (e) => file("nju",     e),
+  "sustech" : async (e) => file("sustech", e),
+  "uestc"   : async (e) => file("uestc",   e),
+  "jlu"     : async (e) => file("jlu",     e),
 };

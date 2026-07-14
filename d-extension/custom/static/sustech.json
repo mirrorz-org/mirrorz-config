@@ -1,0 +1,75 @@
+[
+  {
+    "label": "sustech",
+    "public": true,
+    "resolve": "mirrors.sustech.edu.cn",
+    "range": [
+      "COUNTRY:CN",
+      "REGION:GD",
+      "AS134774",
+      "AS138369",
+      "AS24357",
+      "AS4134",
+      "AS4812",
+      "AS4809",
+      "AS23910"
+    ],
+    "filter": ["V4", "V6", "SSL", "NOSSL"]
+  },
+  {
+    "label": "sustech6",
+    "public": true,
+    "resolve": "mirrors.sustech.edu.cn",
+    "range": [
+      "COUNTRY:CN",
+      "REGION:GD",
+      "2001:da8:201d::/48",
+      "2001:da8:2d00::/48",
+      "2001:da8:2d01::/48",
+      "2001:250:3c00::/43"
+    ],
+    "filter": ["V6", "SSL", "NOSSL"]
+  },
+  {
+    "label": "univsz",
+    "public": true,
+    "resolve": "mirrors.sustech.edu.cn",
+    "range": ["COUNTRY:CN", "REGION:GD", "AS138369"],
+    "filter": ["V4", "V6", "SSL", "NOSSL"]
+  },
+  {
+    "label": "univgd",
+    "public": true,
+    "resolve": "mirrors.sustech.edu.cn",
+    "range": ["COUNTRY:CN", "REGION:GD", "AS24357"],
+    "filter": ["V4", "V6", "SSL", "NOSSL"]
+  },
+  {
+    "label": "univsz6",
+    "public": true,
+    "resolve": "mirrors.sustech.edu.cn",
+    "range": [
+      "COUNTRY:CN",
+      "REGION:GD",
+      "2001:da8:201d::/48",
+      "2001:da8:2d00::/48",
+      "2001:da8:2d01::/48",
+      "2001:250:3c00::/43"
+    ],
+    "filter": ["V6", "SSL", "NOSSL"]
+  },
+  {
+    "label": "univgd6",
+    "public": true,
+    "resolve": "mirrors.sustech.edu.cn",
+    "range": ["COUNTRY:CN", "REGION:GD", "2001:250:3000::/41"],
+    "filter": ["V6", "SSL", "NOSSL"]
+  },
+  {
+    "label": "sustechcampus",
+    "public": false,
+    "resolve": "mirrors.sustech.edu.cn",
+    "range": ["COUNTRY:CN", "REGION:GD", "116.7.234.0/24", "110.65.147.0/24"],
+    "filter": ["V4", "SSL", "NOSSL"]
+  }
+]
