@@ -1,10 +1,10 @@
 const tunasync = require("./tunasync");
 const options = require("./options");
 const isoinfo = require("./isoinfo");
-const loadSite = require("./site");
+const siteData = require("../json-site/nyist.json");
 
-module.exports = async function (siteSource) {
-  const site = await loadSite(siteSource);
+module.exports = async function () {
+  const site = JSON.parse(JSON.stringify(siteData));
   let mirrors = await tunasync(
     "https://mirror.nyist.edu.cn/static/tunasync.json",
   );

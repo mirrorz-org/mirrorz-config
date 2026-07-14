@@ -1,5 +1,5 @@
 const cname = require("./utils").cname;
-const loadSite = require("./site");
+const siteData = require("../json-site/geekpie.json");
 
 const statusConverter = function(s) {
   let c = "S";
@@ -18,9 +18,9 @@ const TYPE_DICT = {
   'font': 'font',
 }
 
-module.exports = async function (siteSource) {
+module.exports = async function () {
   const name_func = await cname();
-  const site = await loadSite(siteSource);
+  const site = JSON.parse(JSON.stringify(siteData));
   const summary = await (await fetch("https://mirrors.shanghaitech.edu.cn/summary")).json();
   const downloads = await (await fetch("https://mirrors.shanghaitech.edu.cn/downloads")).json();
 

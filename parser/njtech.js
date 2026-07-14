@@ -1,9 +1,9 @@
 const tunasync = require("./tunasync");
 const isoinfo = require("./isoinfo");
-const loadSite = require("./site");
+const siteData = require("../json-site/njtech.json");
 
-module.exports = async function (siteSource) {
-  const site = await loadSite(siteSource);
+module.exports = async function () {
+  const site = JSON.parse(JSON.stringify(siteData));
 
   const mirrors = await tunasync("https://mirrors.njtech.edu.cn/jobs");
   const info = await isoinfo("https://mirrors.njtech.edu.cn/isos");

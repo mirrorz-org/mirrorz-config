@@ -2,10 +2,10 @@ const tunasync = require("./tunasync");
 const options = require("./options");
 const isoinfo = require("./isoinfo");
 const disk = require("./disk");
-const loadSite = require("./site");
+const siteData = require("../json-site/bfsu.json");
 
-module.exports = async function (siteSource) {
-  const site = await loadSite(siteSource);
+module.exports = async function () {
+  const site = JSON.parse(JSON.stringify(siteData));
   site["disk"] = await disk("https://mirrors.bfsu.edu.cn/static/status/disk.json");
 
   let mirrors = await tunasync("https://mirrors.bfsu.edu.cn/static/tunasync.json");

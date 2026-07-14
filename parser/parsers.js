@@ -33,52 +33,42 @@ const nwafu = require("./nwafu");
 const hust = require("./hust");
 const ha = require("./ha");
 
-const config = require('../config.json')
-
 const lint = require('./lint')
 
-const site = (abbr) => {
-  const path = "../json-site/" + abbr + ".json";
-  if (typeof window !== "undefined") {
-    return path;  // loadSite() fetches in browser.
-  }
-  // nodejs codepath
-  return require("../json-site/" + abbr + ".json");
-};
-
+// Use static require inside each parser to get files from json-site.
 module.exports = {
-  "nju"     : async () => lint(await nju     (                )),
-  "neusoft" : async () => lint(await neusoft (site("neusoft" ))),
-  "tuna"    : async () => lint(await tuna    (site("tuna"    ))),
-  "bfsu"    : async () => lint(await bfsu    (site("bfsu"    ))),
-  "nano"    : async () => lint(await nano    (site("nano"    ))),
-  "neo"     : async () => lint(await neo     (site("neo"     ))),
-  "hit"     : async () => lint(await hit     (site("hit"     ))),
-  "cqu"     : async () => lint(await cqu     (site("cqu"     ))),
-  "xjtu"    : async () => lint(await xjtu    (site("xjtu"    ))),
-  "neu"     : async () => lint(await neu     (site("neu"     ))),
-  "pku"     : async () => lint(await pku     (site("pku"     ))),
-  "byrio"   : async () => lint(await byrio   (site("byrio"   ))),
-  "cqupt"   : async () => lint(await cqupt   (site("cqupt"   ))),
-  "ynuosa"  : async () => lint(await ynuosa  (site("ynuosa"  ))),
-  "xtom-hk" : async () => lint(await xtom_hk (site("xtom-hk" ))),
-  "xtom"    : async () => lint(await xtom    (site("xtom"    ))),
-  "xtom-de" : async () => lint(await xtom_de (site("xtom-de" ))),
-  "xtom-nl" : async () => lint(await xtom_nl (site("xtom-nl" ))),
-  "xtom-ee" : async () => lint(await xtom_ee (site("xtom-ee" ))),
-  "xtom-jp" : async () => lint(await xtom_jp (site("xtom-jp" ))),
-  "xtom-au" : async () => lint(await xtom_au (site("xtom-au" ))),
-  "xtom-sg" : async () => lint(await xtom_sg (site("xtom-sg" ))),
-  "njupt"   : async () => lint(await njupt   (site("njupt"   ))),
-  "wsyu"    : async () => lint(await wsyu    (                )),
-  "bjtu"    : async () => lint(await bjtu    (site("bjtu"    ))),
-  "bupt"    : async () => lint(await bupt    (site("bupt"    ))),
-  "njtech"  : async () => lint(await njtech  (site("njtech"  ))),
-  "geekpie" : async () => lint(await geekpie (site("geekpie" ))),
-  "qlut"    : async () => lint(await qlut    (site("qlut"    ))),
-  "nyist"   : async () => lint(await nyist   (site("nyist"   ))),
-  "jcut"    : async () => lint(await jcut    (site("jcut"    ))),
-  "nwafu"   : async () => lint(await nwafu   (site("nwafu"   ))),
-  "hust"    : async () => lint(await hust    (site("hust"    ))),
-  "ha"      : async () => lint(await ha      (site("ha"      ))),
+  "nju"     : async () => lint(await nju     ()),
+  "neusoft" : async () => lint(await neusoft ()),
+  "tuna"    : async () => lint(await tuna    ()),
+  "bfsu"    : async () => lint(await bfsu    ()),
+  "nano"    : async () => lint(await nano    ()),
+  "neo"     : async () => lint(await neo     ()),
+  "hit"     : async () => lint(await hit     ()),
+  "cqu"     : async () => lint(await cqu     ()),
+  "xjtu"    : async () => lint(await xjtu    ()),
+  "neu"     : async () => lint(await neu     ()),
+  "pku"     : async () => lint(await pku     ()),
+  "byrio"   : async () => lint(await byrio   ()),
+  "cqupt"   : async () => lint(await cqupt   ()),
+  "ynuosa"  : async () => lint(await ynuosa  ()),
+  "xtom-hk" : async () => lint(await xtom_hk ()),
+  "xtom"    : async () => lint(await xtom    ()),
+  "xtom-de" : async () => lint(await xtom_de ()),
+  "xtom-nl" : async () => lint(await xtom_nl ()),
+  "xtom-ee" : async () => lint(await xtom_ee ()),
+  "xtom-jp" : async () => lint(await xtom_jp ()),
+  "xtom-au" : async () => lint(await xtom_au ()),
+  "xtom-sg" : async () => lint(await xtom_sg ()),
+  "njupt"   : async () => lint(await njupt   ()),
+  "wsyu"    : async () => lint(await wsyu    ()),
+  "bjtu"    : async () => lint(await bjtu    ()),
+  "bupt"    : async () => lint(await bupt    ()),
+  "njtech"  : async () => lint(await njtech  ()),
+  "geekpie" : async () => lint(await geekpie ()),
+  "qlut"    : async () => lint(await qlut    ()),
+  "nyist"   : async () => lint(await nyist   ()),
+  "jcut"    : async () => lint(await jcut    ()),
+  "nwafu"   : async () => lint(await nwafu   ()),
+  "hust"    : async () => lint(await hust    ()),
+  "ha"      : async () => lint(await ha      ()),
 };

@@ -1,5 +1,5 @@
 const cname = require("./utils").cname;
-const loadSite = require("./site");
+const siteData = require("../json-site/neu.json");
 
 const MAP = {
   success: "S",
@@ -9,9 +9,9 @@ const MAP = {
   failed: "F",
 }
 
-module.exports = async function (siteSource) {
+module.exports = async function () {
   const name_func = await cname();
-  const site = await loadSite(siteSource);
+  const site = JSON.parse(JSON.stringify(siteData));
   const repo = await (await fetch("http://mirror.neu.edu.cn/assets/js/repertories.json")).json();
 
   const mirrors = await Promise.all(repo.map(async (item) => {

@@ -1,8 +1,8 @@
 const tunasync = require("./tunasync");
-const loadSite = require("./site");
+const siteData = require("../json-site/ynuosa.json");
 
-module.exports = async function (siteSource) {
-  const site = await loadSite(siteSource);
+module.exports = async function () {
+  const site = JSON.parse(JSON.stringify(siteData));
   const mirrors = await tunasync("https://mirrors.ynu.edu.cn/jobs");
 
   return {

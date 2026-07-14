@@ -1,9 +1,9 @@
 const tunasync = require("./tunasync");
 const isoinfo = require("./isoinfo");
-const loadSite = require("./site");
+const siteData = require("../json-site/cqu.json");
 
-module.exports = async function (siteSource) {
-  const site = await loadSite(siteSource);
+module.exports = async function () {
+  const site = JSON.parse(JSON.stringify(siteData));
   const mirrors = await tunasync("https://mirrors.cqu.edu.cn/static/tunasync.json");
   const info = await isoinfo("https://mirrors.cqu.edu.cn/static/isoinfo.json");
 
