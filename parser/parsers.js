@@ -38,6 +38,11 @@ const config = require('../config.json')
 const lint = require('./lint')
 
 const site = (abbr) => {
+  const path = "../json-site/" + abbr + ".json";
+  if (typeof window !== "undefined") {
+    return path;  // loadSite() fetches in browser.
+  }
+  // nodejs codepath
   return require("../json-site/" + abbr + ".json");
 };
 
