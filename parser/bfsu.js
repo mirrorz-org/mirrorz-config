@@ -2,7 +2,7 @@ const tunasync = require("./tunasync");
 const options = require("./options");
 const isoinfo = require("./isoinfo");
 const disk = require("./disk");
-const siteData = require("../json-site/bfsu.json");
+const siteData = require("./sites/bfsu.json");
 
 module.exports = async function () {
   const site = JSON.parse(JSON.stringify(siteData));

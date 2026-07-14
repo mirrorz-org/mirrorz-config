@@ -1,5 +1,5 @@
 const cname = require("./utils").cname;
-const siteData = require("../json-site/neusoft.json");
+const siteData = require("./sites/neusoft.json");
 
 const statusConverter = function(time, status) {
   let c = "S";

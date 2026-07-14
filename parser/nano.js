@@ -1,7 +1,7 @@
 const tunasync = require("./tunasync");
 const options = require("./options");
 const disk = require("./disk");
-const siteData = require("../json-site/nano.json");
+const siteData = require("./sites/nano.json");
 
 module.exports = async function () {
   const site = JSON.parse(JSON.stringify(siteData));

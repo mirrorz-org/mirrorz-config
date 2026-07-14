@@ -1,7 +1,7 @@
 const tunasync = require("./tunasync");
 const isoinfo = require("./isoinfo");
 const disk = require("./disk");
-const siteData = require("../json-site/xtom-au.json");
+const siteData = require("./sites/xtom-au.json");
 
 module.exports = async function () {
   const site = JSON.parse(JSON.stringify(siteData));

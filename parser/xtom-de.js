@@ -1,5 +1,5 @@
 const ustclugv1 = require("./ustclug-v1");
-const siteData = require("../json-site/xtom-de.json");
+const siteData = require("./sites/xtom-de.json");
 
 module.exports = async function () {
   const site = JSON.parse(JSON.stringify(siteData));

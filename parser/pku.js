@@ -1,5 +1,5 @@
 const cname = require("./utils").cname;
-const siteData = require("../json-site/pku.json");
+const siteData = require("./sites/pku.json");
 
 const MAP = {
   done: "S",

@@ -1,5 +1,5 @@
 const tunasync = require("./tunasync");
-const siteData = require("../json-site/byrio.json");
+const siteData = require("./sites/byrio.json");
 
 module.exports = async function () {
   const site = JSON.parse(JSON.stringify(siteData));

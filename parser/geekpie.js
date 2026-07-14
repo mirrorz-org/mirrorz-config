@@ -1,5 +1,5 @@
 const cname = require("./utils").cname;
-const siteData = require("../json-site/geekpie.json");
+const siteData = require("./sites/geekpie.json");
 
 const statusConverter = function(s) {
   let c = "S";

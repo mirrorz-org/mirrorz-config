@@ -1,6 +1,6 @@
 const cname = require("./utils").cname;
 const ideal_mirror = require("./ideal-mirror");
-const siteData = require("../json-site/bjtu.json");
+const siteData = require("./sites/bjtu.json");
 
 module.exports = async function () {
   const name_func = await cname();

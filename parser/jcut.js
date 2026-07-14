@@ -1,5 +1,5 @@
 const tunasync = require("./tunasync");
-const siteData = require("../json-site/jcut.json");
+const siteData = require("./sites/jcut.json");
 
 module.exports = async function () {
   const site = JSON.parse(JSON.stringify(siteData));

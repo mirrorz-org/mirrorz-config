@@ -1,5 +1,5 @@
 const tunasync = require("./tunasync");
-const siteData = require("../json-site/ynuosa.json");
+const siteData = require("./sites/ynuosa.json");
 
 module.exports = async function () {
   const site = JSON.parse(JSON.stringify(siteData));

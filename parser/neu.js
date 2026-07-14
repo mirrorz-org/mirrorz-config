@@ -1,5 +1,5 @@
 const cname = require("./utils").cname;
-const siteData = require("../json-site/neu.json");
+const siteData = require("./sites/neu.json");
 
 const MAP = {
   success: "S",
