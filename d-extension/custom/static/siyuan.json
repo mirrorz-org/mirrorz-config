@@ -3,7 +3,7 @@
     "label": "sjtug",
     "public": false,
     "resolve": "mirror.sjtu.edu.cn",
-    "filter": ["V4", "V6", "SSL", "NOSSL"],
+    "filter": ["V4", "V6", "SSL"],
     "range": [
       "COUNTRY:CN",
       "REGION:SH",
