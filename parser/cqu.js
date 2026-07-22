@@ -4,8 +4,8 @@ const siteData = require("./sites/cqu.json");
 
 module.exports = async function () {
   const site = JSON.parse(JSON.stringify(siteData));
-  const mirrors = await tunasync("https://mirrors.cqu.edu.cn/static/tunasync.json");
-  const info = await isoinfo("https://mirrors.cqu.edu.cn/static/isoinfo.json");
+  const mirrors = await tunasync("https://mirrors-metadata.cqulug.club/tunasync.json");
+  const info = await isoinfo("https://mirrors-metadata.cqulug.club/isoinfo.json");
 
   for (const m of mirrors) {
     if (m.cname.includes(".git")) {
