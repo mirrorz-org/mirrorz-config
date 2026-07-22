@@ -1,9 +1,9 @@
 {
     "url": "https://mirrors.cqu.edu.cn",
-    "logo": "https://mirrors.cqu.edu.cn/static/img/favicon.png",
+    "logo": "https://mirrors-metadata.cqulug.club/favicon.svg",
     "abbr": "CQU",
     "name": "重庆大学开源软件镜像站",
-    "homepage": "https://mirrors.cqu.edu.cn",
+    "homepage": "https://cqulug.club",
     "email": "cqumirror (at) gmail dot com",
     "issue": "https://github.com/cqumirror/feedback",
     "request": "https://github.com/cqumirror/feedback",
