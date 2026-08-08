@@ -86,11 +86,18 @@ const init = (config, mirrorzRepo) => {
 
     const v6ms = Math.floor(timeout / 10);
     const fbms = Math.floor(timeout / 3);
+    const requestHeaders = new fetch_extra.Headers(headers);
+    if (opt?.headers) {
+      new fetch_extra.Headers(opt.headers).forEach((value, name) => {
+        requestHeaders.set(name, value);
+      });
+    }
+    const requestOptions = { ...opt, headers: requestHeaders };
 
     let v6err;
     try {
       return await Timeout.wrap(
-        fetch_extra(u, { ...opt, family: 6, headers }),
+        fetch_extra(u, { ...requestOptions, family: 6 }),
         v6ms,
         mkTimeoutErr("(IPv6)", v6ms),
       );
@@ -100,7 +107,7 @@ const init = (config, mirrorzRepo) => {
 
     try {
       return await Timeout.wrap(
-        fetch_extra(u, { ...opt, headers }),
+        fetch_extra(u, requestOptions),
         fbms,
         mkTimeoutErr("(fallback)", fbms),
       );
