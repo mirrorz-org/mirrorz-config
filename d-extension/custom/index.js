@@ -23,4 +23,5 @@ module.exports = {
   "sustech" : async (e) => file("sustech", e),
   "uestc"   : async (e) => file("uestc",   e),
   "jlu"     : async (e) => file("jlu",     e),
+  "wsyu"    : async (e) => file("wsyu",    e),
 };
