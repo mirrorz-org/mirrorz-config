@@ -3,24 +3,13 @@
     "label": "wsyu",
     "public": true,
     "resolve": "mirrors.wsyu.edu.cn",
-    "filter": ["V4", "SSL", "NOSSL"],
+    "filter": ["V4", "V6", "SSL", "NOSSL"],
     "range": [
       "COUNTRY:CN",
       "REGION:HB",
       "ISP:CERNET",
       "218.199.144.0/20",
-      "219.140.64.128/28"
-    ]
-  },
-  {
-    "label": "wsyu6",
-    "public": true,
-    "resolve": "[2001:da8:303c:198::3]",
-    "filter": ["V6", "NOSSL"],
-    "range": [
-      "COUNTRY:CN",
-      "REGION:HB",
-      "ISP:CERNET",
+      "219.140.64.128/28",
       "2001:da8:303c::/48"
     ]
   }
