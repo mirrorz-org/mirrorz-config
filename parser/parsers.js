@@ -32,6 +32,7 @@ const jcut = require("./jcut");
 const nwafu = require("./nwafu");
 const hust = require("./hust");
 const ha = require("./ha");
+const sysu = require("./sysu");
 
 const lint = require('./lint')
 
@@ -71,4 +72,5 @@ module.exports = {
   "nwafu"   : async () => lint(await nwafu   ()),
   "hust"    : async () => lint(await hust    ()),
   "ha"      : async () => lint(await ha      ()),
+  "sysu"    : async () => lint(await sysu    ()),
 };

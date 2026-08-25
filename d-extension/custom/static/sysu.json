@@ -1,0 +1,17 @@
+[
+  {
+    "label": "sysu",
+    "public": true,
+    "resolve": "mirror.sysu.edu.cn",
+    "filter": [
+      "V6",
+      "V4",
+      "SSL",
+      "NOSSL"
+    ],
+    "range": [
+      "COUNTRY:CN",
+      "REGION:GD"
+    ]
+  }
+]
