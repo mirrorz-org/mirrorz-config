@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["NJU"],
+  "endpoints": [
   {
     "label": "nju",
     "public": true,
@@ -6,4 +8,5 @@
     "filter": ["V4", "V6", "NOSSL", "SSL"],
     "range": ["COUNTRY:CN", "REGION:JS", "ISP:CERNET"]
   }
-]
+  ]
+}

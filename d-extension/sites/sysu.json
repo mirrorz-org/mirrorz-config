@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["SYSU"],
+  "endpoints": [
   {
     "label": "sysu",
     "public": true,
@@ -14,4 +16,5 @@
       "REGION:GD"
     ]
   }
-]
+  ]
+}

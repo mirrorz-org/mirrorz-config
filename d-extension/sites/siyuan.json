@@ -1,9 +1,11 @@
-[
+{
+  "abbrs": ["SJTUG - Siyuan"],
+  "endpoints": [
   {
     "label": "sjtug",
     "public": false,
-    "resolve": "mirrors.sjtug.sjtu.edu.cn",
-    "filter": ["V4", "V6", "SSL", "NOSSL"],
+    "resolve": "mirror.sjtu.edu.cn",
+    "filter": ["V4", "V6", "SSL"],
     "range": [
       "COUNTRY:CN",
       "REGION:SH",
@@ -21,4 +23,5 @@
       "2408:8026:380::/52"
     ]
   }
-]
+  ]
+}

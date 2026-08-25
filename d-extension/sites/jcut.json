@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["JCUT"],
+  "endpoints": [
     {
         "label": "jcut",
         "resolve": "mirrors.jcut.edu.cn",
@@ -15,4 +17,5 @@
             "NOSSL"
         ]
     }
-]
+  ]
+}

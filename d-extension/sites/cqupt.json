@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["CQUPT"],
+  "endpoints": [
   {
     "label": "cqupt",
     "public": false,
@@ -41,4 +43,5 @@
       "2409:8760:1e81::/48"
     ]
   }
-]
+  ]
+}

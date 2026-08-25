@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["SUSTech CRA"],
+  "endpoints": [
   {
     "label": "sustech",
     "public": true,
@@ -72,4 +74,5 @@
     "range": ["COUNTRY:CN", "REGION:GD", "116.7.234.0/24", "110.65.147.0/24"],
     "filter": ["V4", "SSL", "NOSSL"]
   }
-]
+  ]
+}

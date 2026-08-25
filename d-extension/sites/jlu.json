@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["JLU"],
+  "endpoints": [
   {
     "label": "jlu",
     "public": true,
@@ -41,4 +43,5 @@
       "2403:8c00::/32"
     ]
   }
-]
+  ]
+}

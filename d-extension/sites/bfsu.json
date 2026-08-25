@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["BFSU"],
+  "endpoints": [
   {
     "label": "bfsu",
     "public": true,
@@ -45,4 +47,5 @@
       "NOSSL"
     ]
   }
-]
+  ]
+}

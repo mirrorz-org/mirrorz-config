@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["WSYU"],
+  "endpoints": [
   {
     "label": "wsyu",
     "public": true,
@@ -13,4 +15,5 @@
       "2001:da8:303c::/48"
     ]
   }
-]
+  ]
+}

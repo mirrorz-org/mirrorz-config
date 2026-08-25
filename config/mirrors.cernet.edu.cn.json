@@ -137,32 +137,5 @@
     "https://mirror.lzu.edu.cn/.mirrorz.json",
     "https://mirrors.jlu.edu.cn/_api/mirrorz.json",
     "https://mirrors.cqupt.edu.cn/api/mirrorz.json"
-  ],
-  "d_parser": [
-    "nju",
-    "nano",
-    "neo",
-    "bfsu",
-    "hit",
-    "bjtu",
-    "xjtu",
-    "cqu",
-    "cqupt",
-    "qlut",
-    "nyist",
-    "jcut",
-    "geekpie",
-    "lzu",
-    "jcut",
-    "sdu",
-    "siyuan",
-    "ustc",
-    "zhiyuan",
-    "zju",
-    "sustech",
-    "uestc",
-    "jlu",
-    "wsyu",
-    "sysu"
   ]
 }

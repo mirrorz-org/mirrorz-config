@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["UESTC LUG"],
+  "endpoints": [
   {
     "label": "uestc",
     "public": false,
@@ -65,4 +67,5 @@
     "filter": ["V4", "NOSSL"],
     "range": ["202.98.105.128/25", "182.138.127.0/24", "125.71.228.0/23"]
   }
-]
+  ]
+}

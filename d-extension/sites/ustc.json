@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["USTC"],
+  "endpoints": [
   {
     "label": "ustc",
     "public": true,
@@ -48,4 +50,5 @@
     "filter": ["V4", "SSL", "NOSSL"],
     "range": ["COUNTRY:CN", "REGION:AH", "ISP:CMCC"]
   }
-]
+  ]
+}

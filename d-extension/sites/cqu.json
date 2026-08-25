@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["CQU"],
+  "endpoints": [
   {
     "label": "cqu",
     "public": false,
@@ -50,4 +52,5 @@
       "222.178.10.128/25"
     ]
   }
-]
+  ]
+}

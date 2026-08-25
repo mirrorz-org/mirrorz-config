@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["XJTU"],
+  "endpoints": [
   {
     "label": "xjtu",
     "_label": "Xi'an Jiaotong University Network and China Education and Research Network of Shaanxi Province",
@@ -42,4 +44,5 @@
       "NOSSL"
     ]
   }
-]
+  ]
+}

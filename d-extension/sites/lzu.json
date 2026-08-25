@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["LZUOSS"],
+  "endpoints": [
     {
       "label": "lzu",
       "public": true,
@@ -23,4 +25,5 @@
         "219.246.176.0/20"
       ]
     }
-]
+  ]
+}

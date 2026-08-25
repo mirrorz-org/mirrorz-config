@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["BJTU"],
+  "endpoints": [
     {
       "label": "bjtu",
       "public": true,
@@ -27,4 +29,5 @@
         "2001:da8:205::/48"
       ]
     }
-]
+  ]
+}

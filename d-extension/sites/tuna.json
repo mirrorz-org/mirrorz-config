@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["TUNA.NANO","TUNA.NEO"],
+  "endpoints": [
   {
     "label": "tuna",
     "public": true,
@@ -52,4 +54,5 @@
       "NOSSL"
     ]
   }
-]
+  ]
+}

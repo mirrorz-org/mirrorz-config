@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["ShanghaiTech GeekPie"],
+  "endpoints": [
   {
     "label": "shanghaitech-campus",
     "public": false,
@@ -13,4 +15,5 @@
       "180.167.19.64/27"
     ]
   }
-]
+  ]
+}

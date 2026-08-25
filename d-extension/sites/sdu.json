@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["SDU"],
+  "endpoints": [
   {
     "label": "sdu",
     "public": false,
@@ -6,4 +8,5 @@
     "filter": ["V6", "SSL"],
     "range": ["AS4538", "AS23910", "REGION:SD"]
   }
-]
+  ]
+}

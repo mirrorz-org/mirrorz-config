@@ -1,4 +1,6 @@
-[
+{
+  "abbrs": ["QLUT"],
+  "endpoints": [
     {
         "label": "qlut",
         "public": true,
@@ -28,4 +30,5 @@
             "ISP:CERNET"
         ]
     }
-]
+  ]
+}
