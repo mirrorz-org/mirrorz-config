@@ -1,6 +1,11 @@
 import parsers, { Parser } from "./parser";
-import config from "../mirrorz-config/config.json";
+import config from "./config.json";
 
-const upstreams: (Parser | string)[] = config.mirrors.map((e) => parsers[e]);
+const upstreams = config.mirrors.map((e) => {
+    if (e in parsers) {
+        return parsers[e as keyof typeof parsers];
+    }
+    return e;
+});
 
 export default upstreams;
