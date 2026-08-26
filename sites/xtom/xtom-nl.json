@@ -1,0 +1,9 @@
+{
+    "url": "https://mirrors.xtom.nl",
+    "logo": "https://xtom.com/logo.svg",
+    "logo_darkmode": "https://xtom.com/logo_dark.svg",
+    "abbr": "XTOM (NL)",
+    "name": "XTOM 开源软件镜像站（荷兰）",
+    "email": "mirror AT xtom DOT com",
+    "request": "https://github.com/xtomcom/mirrorrequest"
+}

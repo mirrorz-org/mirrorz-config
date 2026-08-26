@@ -1,0 +1,10 @@
+{
+    "url": "https://mirrors.ha.edu.cn",
+    "logo": "https://mirrors.ha.edu.cn/static/img/logo-hernet.svg",
+    "abbr": "HERNET",
+    "name": "河南省教科网开源软件镜像站",
+    "homepage": "https://www.ha.edu.cn",
+    "issue": "https://github.com/hernet-mirrors/issues",
+    "email": "mirrors@ha.edu.cn",
+    "big": "/speedtest/1000mb.bin"
+}
