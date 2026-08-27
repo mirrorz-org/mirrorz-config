@@ -6,7 +6,7 @@
     "public": false,
     "resolve": "mirrors.cqupt.edu.cn",
     "filter": ["V4", "V6", "SSL"],
-    "range": ["COUNTRY:CN", "REGION:CQ", "ISP:CERNET"]
+    "range": []
   },
   {
     "label": "cqupt4",
@@ -14,9 +14,6 @@
     "resolve": "mirrors.cqupt.edu.cn",
     "filter": ["V4", "SSL"],
     "range": [
-      "COUNTRY:CN",
-      "REGION:CQ",
-      "ISP:CHINANET",
       "183.230.0.0/17",
       "125.80.0.0/13",
       "113.204.0.0/14"
@@ -27,7 +24,7 @@
     "public": false,
     "resolve": "mirrors.cqupt.edu.cn",
     "filter": ["V6", "SSL"],
-    "range": ["COUNTRY:CN", "REGION:CQ", "ISP:CERNET"]
+    "range": []
   },
   {
     "label": "cquptnet",
