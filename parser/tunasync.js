@@ -21,8 +21,15 @@ const statusConverter = function(item) {
   }
   else if (s == "F" && "last_ended_ts" in item && item["last_ended_ts"] > 0) {
       s += item["last_ended_ts"].toString(); // last attempted
-      if ("last_update_ts" in item && item["last_update_ts"] > 0)
-          s += "O" + item["last_update_ts"].toString(); // last successful sync is still important
+      if ("last_update_ts" in item) {
+          if (item["last_update_ts"] > 0) {
+              s += "O" + item["last_update_ts"].toString(); // last successful sync is still important
+          } else {
+              // This repo has never been successfully synced, reset to Unix zero time
+              // the monitor will ignore the zero value, so it cannot be set as zero
+              s += "O" + "0000000001";
+          }
+      }
   }
 
   if ("next_schedule_ts" in item && item["next_schedule_ts"] > 0)
