@@ -2,7 +2,6 @@
   "url": "http://127.0.0.1:1234",
   "mirrors_help_url": "https://help.mirrorz.org",
   "display": "MirrorZ - Debug",
-  "display_legacy": "MirrorZ - Debug - Legacy",
   "intro": "<div><p>\"Your next MirrorS is not MirrorS, nor MirrorSes, it's MirrorZ.\"</p><p>\"A final site for Mirror sites.\"</p></div>",
   "language": "en",
   "meta": {
@@ -11,7 +10,6 @@
     "keywords": "mirrorz,mirrors,mirror,mirror site,linux,open source"
   },
   "about": [
-    "legacy",
     "302-js"
   ],
   "mirrors_legacy": [

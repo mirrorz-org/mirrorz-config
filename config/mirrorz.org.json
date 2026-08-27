@@ -2,7 +2,6 @@
   "url": "https://mirrorz.org",
   "mirrors_help_url": "https://help.mirrorz.org",
   "display": "MirrorZ.org",
-  "display_legacy": "MirrorZ.org - Legacy",
   "intro": "<div><p>\"Your next MirrorS is not MirrorS, nor MirrorSes, it's MirrorZ.\"</p><p>\"A final site for Mirror sites.\"</p></div>",
   "language": "en",
   "meta": {
@@ -12,7 +11,6 @@
   },
   "about": [
     "mirrors_help",
-    "legacy",
     "monitor",
     "302-js"
   ],
