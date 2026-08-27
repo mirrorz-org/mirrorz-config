@@ -3,7 +3,7 @@
   "endpoints": [
   {
     "label": "zju",
-    "public": true,
+    "public": false,
     "resolve": "mirrors.zju.edu.cn",
     "filter": ["V4", "V6", "SSL", "NOSSL"],
     "range": [
