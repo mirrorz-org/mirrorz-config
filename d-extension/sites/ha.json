@@ -1,12 +1,17 @@
 {
-  "abbrs": ["HERNET"],
+  "abbrs": [
+    "HERNET"
+  ],
   "endpoints": [
     {
       "label": "ha",
       "public": false,
       "resolve": "mirrors.ha.edu.cn",
       "private_range": [
-        ["REGION:HA","ISP:CERNET"]
+        [
+          "REGION:HA",
+          "ISP:CERNET"
+        ]
       ],
       "filter": [
         "V4",
@@ -25,7 +30,10 @@
       "public": false,
       "resolve": "mirrors4.ha.edu.cn",
       "private_range": [
-        ["REGION:HA","ISP:CERNET"]
+        [
+          "REGION:HA",
+          "ISP:CERNET"
+        ]
       ],
       "filter": [
         "V4",
@@ -43,7 +51,10 @@
       "public": false,
       "resolve": "mirrors6.ha.edu.cn",
       "private_range": [
-        ["REGION:HA","ISP:CERNET"]
+        [
+          "REGION:HA",
+          "ISP:CERNET"
+        ]
       ],
       "filter": [
         "V6",
