@@ -1,0 +1,60 @@
+{
+  "abbrs": ["HERNET"],
+  "endpoints": [
+    {
+      "label": "ha",
+      "public": false,
+      "resolve": "mirrors.ha.edu.cn",
+      "private_range": [
+        ["REGION:HA","ISP:CERNET"]
+      ],
+      "filter": [
+        "V4",
+        "V6",
+        "SSL",
+        "NOSSL"
+      ],
+      "range": [
+        "COUNTRY:CN",
+        "REGION:HA",
+        "ISP:CERNET"
+      ]
+    },
+    {
+      "label": "ha4",
+      "public": false,
+      "resolve": "mirrors4.ha.edu.cn",
+      "private_range": [
+        ["REGION:HA","ISP:CERNET"]
+      ],
+      "filter": [
+        "V4",
+        "SSL",
+        "NOSSL"
+      ],
+      "range": [
+        "COUNTRY:CN",
+        "REGION:HA",
+        "ISP:CERNET"
+      ]
+    },
+    {
+      "label": "ha6",
+      "public": false,
+      "resolve": "mirrors6.ha.edu.cn",
+      "private_range": [
+        ["REGION:HA","ISP:CERNET"]
+      ],
+      "filter": [
+        "V6",
+        "SSL",
+        "NOSSL"
+      ],
+      "range": [
+        "COUNTRY:CN",
+        "REGION:HA",
+        "ISP:CERNET"
+      ]
+    }
+  ]
+}
