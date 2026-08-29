@@ -13,6 +13,9 @@
     "monitor",
     "302-go"
   ],
+  "legacy_pack": [
+    "cernet"
+  ],
   "mirrors": [
     "bfsu",
     "bjtu",
