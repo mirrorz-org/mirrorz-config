@@ -1,10 +1,11 @@
 import parsers, { Parser } from "./parser";
-// symlink ./config.json to config/<what you want>.json
 import config from "./config.json";
 
-const upstreams: (string | Parser)[] =
-  config.upstream_legacy.map((e) => config.url + '/static/json/legacy/' + e + '.json')
-    .concat(config.upstream_mirrors)
-    .concat(config.upstream_parser.map((e) => parsers[e]));
+const upstreams = config.mirrors.map((e) => {
+    if (e in parsers) {
+        return parsers[e as keyof typeof parsers];
+    }
+    return e;
+});
 
 export default upstreams;
