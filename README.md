@@ -40,5 +40,6 @@ module.exports = async function () {
 }
 ```
 
-After editing a site file, use `./update.sh` to make mirrorz-302 reload the
-directory.
+After editing a site file, send `SIGHUP` to the running mirrorz-302 process to
+reload the directory. If reloading fails, mirrorz-302 keeps the previously
+loaded configuration.

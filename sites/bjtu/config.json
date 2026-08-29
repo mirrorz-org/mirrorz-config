@@ -1,5 +1,7 @@
 {
-  "abbrs": ["BJTU"],
+  "abbrs": [
+    "BJTU"
+  ],
   "endpoints": [
     {
       "label": "bjtu",

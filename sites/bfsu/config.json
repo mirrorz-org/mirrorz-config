@@ -1,5 +1,7 @@
 {
-  "abbrs": ["BFSU"],
+  "abbrs": [
+    "BFSU"
+  ],
   "endpoints": [
     {
       "label": "bfsu",
