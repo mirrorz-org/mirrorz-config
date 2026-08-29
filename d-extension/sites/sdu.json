@@ -5,7 +5,7 @@
   "endpoints": [
     {
       "label": "sdu",
-      "public": false,
+      "public": true,
       "resolve": "mirrors.sdu.edu.cn",
       "filter": [
         "V4",
