@@ -1,5 +1,7 @@
 {
-  "abbrs": ["LZUOSS"],
+  "abbrs": [
+    "LZUOSS"
+  ],
   "endpoints": [
     {
       "label": "lzu",
