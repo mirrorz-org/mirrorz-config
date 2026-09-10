@@ -1,0 +1,16 @@
+{
+  "abbrs": ["HUST"],
+  "endpoints": [
+    {
+      "label": "hust",
+      "public": true,
+      "resolve": "mirrors.hust.edu.cn",
+      "filter": ["V4", "V6", "SSL", "NOSSL"],
+      "range": [
+        "COUNTRY:CN",
+        "REGION:HB",
+        "ISP:CERNET"
+      ]
+    }
+  ]
+}
