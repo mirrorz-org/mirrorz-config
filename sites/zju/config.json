@@ -15,7 +15,8 @@
       ],
       "private_range": [
         [
-          "REGION:ZJ"
+          "REGION:ZJ",
+          "ISP:CERNET"
         ]
       ],
       "range": [
