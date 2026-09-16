@@ -8,7 +8,7 @@ module.exports = async function () {
   const info = await isoinfo("https://mirrors-metadata.cqulug.club/isoinfo.json");
 
   for (const m of mirrors) {
-    if (m.cname.includes(".git")) {
+    if (m.cname.includes(".git") || m.cname.toLowerCase === "homebrew") {
       // a hack for cqu, they put .git in /git/xxx.git
       m.url = '/git' + m.url
     }
