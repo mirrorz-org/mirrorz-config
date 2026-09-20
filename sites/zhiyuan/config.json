@@ -27,5 +27,18 @@
         "2408:8026:380::/52"
       ]
     }
-  ]
+  ],
+  "redirects": {
+    "raspberrypi": {
+      "rewrite": [
+        {
+          "match": "^/(.*)$",
+          "target": "/debian/${1}"
+        }
+      ]
+    }
+  },
+  "mirrorlist_paths": {
+    "raspberrypi": "/raspberrypi/debian"
+  }
 }

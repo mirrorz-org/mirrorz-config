@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    {
+      "match": "^/raspberrypi/debian(/.*)?$",
+      "target": "/raspberrypi${1}"
+    }
+  ]
+}

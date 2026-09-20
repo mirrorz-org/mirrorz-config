@@ -108,5 +108,18 @@
         "ISP:CMCC"
       ]
     }
-  ]
+  ],
+  "redirects": {
+    "raspberrypi": {
+      "rewrite": [
+        {
+          "match": "^/(.*)$",
+          "target": "/debian/${1}"
+        }
+      ]
+    }
+  },
+  "mirrorlist_paths": {
+    "raspberrypi": "/raspberrypi/debian"
+  }
 }
