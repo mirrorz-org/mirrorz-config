@@ -117,6 +117,22 @@
           "target": "/debian/${1}"
         }
       ]
+    },
+    "Adoptium": {
+      "rewrite": [
+        {
+          "match": "^/(\\d+)/(?:jdk|jre)/(?:[^/]+/)+(.+)$",
+          "target": "/releases/temurin$1-binaries/LatestRelease/$2"
+        },
+        {
+          "match": "^/rpm/(centos|fedora)(\\d+)-([^/]+)/(.+)$",
+          "target": "/rpm/$1/$2/$3/$4"
+        },
+        {
+          "match": "^/rpm/(rhel)(\\d+)-([^/]+)/(.+)$",
+          "target": "/rpm/centos/$2/$3/$4"
+        }
+      ]
     }
   },
   "mirrorlist_paths": {
