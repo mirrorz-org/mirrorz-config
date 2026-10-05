@@ -3,6 +3,14 @@
     {
       "match": "^/raspberrypi/debian(/.*)?$",
       "target": "/raspberrypi${1}"
+    },
+    {
+      "match": "^/adoptium/releases/temurin([0-9]+)-binaries/LatestRelease/(OpenJDK[0-9]+U-(jdk|jre)_([^_]+)_([^_]+)_.+)$",
+      "target": "/Adoptium/${1}/${3}/${4}/${5}/${2}"
+    },
+    {
+      "match": "^/adoptium/rpm/(centos|fedora)/([0-9]+)/([^/]+)(/.*)$",
+      "target": "/Adoptium/rpm/${1}${2}-${3}${4}"
     }
   ]
 }
