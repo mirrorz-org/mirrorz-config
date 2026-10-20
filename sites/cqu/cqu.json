@@ -8,6 +8,5 @@
   "issue": "https://github.com/cqumirror/feedback",
   "request": "https://github.com/cqumirror/feedback",
   "group": "Telegram @cqumirror",
-  "note": "目前仅限校内",
-  "big": "/speedtest/1000mb.bin"
+  "note": "目前仅限校内，校外网络请访问 https://mirrors-cqu-edu-cn-s.atrust.cqu.edu.cn"
 }
