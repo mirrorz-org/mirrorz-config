@@ -1,18 +1,16 @@
-const tunasync = require("../../parser/tunasync");
-const isoinfo = require("../../parser/isoinfo");
-const disk = require("../../parser/disk");
+const ustclugv1 = require("../../parser/ustclug-v1");
 const siteData = require("./xtom-au.json");
 
 module.exports = async function () {
   const site = JSON.parse(JSON.stringify(siteData));
-  site["disk"] = await disk("https://mirrors.xtom.au/static/status/disk.json");
-
-  const mirrors = await tunasync("https://mirrors.xtom.au/static/tunasync.json");
-  const info = await isoinfo("https://mirrors.xtom.au/static/status/isoinfo.json");
+  const data = await ustclugv1(
+    "https://r.zenithal.workers.dev/https://mirrors.xtom.au/",
+    "https://mirrors.xtom.au/api/v1/metas"
+  );
 
   return {
     site,
-    info,
-    mirrors,
-  }
+    info: data.info,
+    mirrors: data.mirrors,
+  };
 };

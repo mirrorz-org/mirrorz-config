@@ -42,17 +42,14 @@ module.exports = async function (homepageURL, yukiURL) {
 
   const parser = new DOMParser();
   const doc = parser.parseFromString(homepageHTML, "text/html");
-  const items = Array.from(doc.querySelectorAll(".filelist tbody tr"));
+  const items = Array.from(doc.querySelectorAll("#file-table tbody tr a[href$='/']"));
 
   // handling HTML
   const hashtable = {};
   const mirrors = items.map((item, index) => {
-    let url = item.querySelector(".filename a").getAttribute("href");
-    if (!url.startsWith("http:") && !url.startsWith("https:")) {
-      url = "/" + url;
-    }
+    const url = item.getAttribute("href");
     const status = "U";
-    const help = item.querySelector(".help a").getAttribute("href");
+    const help = ""; // no help link on the new homepage
     const name = name_func(url.replace(/\//g, "")); // remove all '/' in href
     const desc = ""; // no desc in ustclug-v1
     hashtable[name.toLowerCase()] = index;
