@@ -15,8 +15,11 @@ const size = function (bytes) {
 
 module.exports = async function (homepageURL, yukiURL) {
   const name_func = await cname();
-  const homepageHTML = await (await fetch(homepageURL)).text();
-  // yukiMeta = await (await fetch(yukiURL)).json();
+  const response = await fetch(homepageURL);
+  if (!response.ok) {
+    throw new Error(`Failed to fetch ${homepageURL}: ${response.status}`);
+  }
+  const homepageHTML = await response.text();
   let yukiMeta = await fetch(yukiURL);
   if (yukiMeta.ok) {
     yukiMeta = await yukiMeta.json();
@@ -24,52 +27,32 @@ module.exports = async function (homepageURL, yukiURL) {
     yukiMeta = null;
   }
 
-  // finding `var isoinfo`
-  const htmlLines = homepageHTML.split("\n");
-  const isoSign = "var isoinfo = ";
-  let isoinfo = [];
-  for (let line of htmlLines) {
-    let pos = line.indexOf(isoSign);
-    if (pos !== -1) {
-      pos += isoSign.length;
-      isoinfo = JSON.parse(line.substring(pos, line.length - 1));
-    }
-  }
-  for (let item of isoinfo) {
-    item["distro"] = name_func(item["distro"]);
-    item["category"] = "os";
-  }
-
   const parser = new DOMParser();
   const doc = parser.parseFromString(homepageHTML, "text/html");
-  const items = Array.from(doc.querySelectorAll(".filelist tbody tr"));
-
-  // handling HTML
-  const hashtable = {};
-  const mirrors = items.map((item, index) => {
-    let url = item.querySelector(".filename a").getAttribute("href");
-    if (!url.startsWith("http:") && !url.startsWith("https:")) {
-      url = "/" + url;
-    }
-    const status = "U";
-    const help = item.querySelector(".help a").getAttribute("href");
-    const name = name_func(url.replace(/\//g, "")); // remove all '/' in href
-    const desc = ""; // no desc in ustclug-v1
-    hashtable[name.toLowerCase()] = index;
+  const table = doc.querySelector("#file-table");
+  if (!table) {
+    throw new Error(`Missing xtom directory listing: ${homepageURL}`);
+  }
+  const links = Array.from(table.querySelectorAll("tbody tr:not(#parent-dir) td:first-child a"));
+  const hashtable = new Map();
+  const mirrors = links.filter((link) => {
+    const href = link.getAttribute("href");
+    return href && /^\/[^/]+\/$/.test(href);
+  }).map((link, index) => {
+    const url = link.getAttribute("href");
+    const name = url.slice(1, -1);
+    hashtable.set(name, index);
     return {
-      cname: name,
+      cname: name_func(name),
       url,
-      status,
-      help,
-      desc,
+      status: "U",
     };
   });
 
   // handling yuki
   if (yukiMeta) {
     yukiMeta.map((item) => {
-      const name = name_func(item.name).toLowerCase();
-      const index = hashtable[name] ?? hashtable[name.split(".")[0]];
+      const index = hashtable.get(item.name);
       if (index === undefined) {
         return;
       }
@@ -94,13 +77,15 @@ module.exports = async function (homepageURL, yukiURL) {
       if (next_run > 0) {
         mirrors[index]["status"] += "X" + next_run;
       }
-      mirrors[index]["size"] = size(item.size);
+      if (Number.isFinite(item.size) && item.size >= 0) {
+        mirrors[index]["size"] = size(item.size);
+      }
       mirrors[index]["upstream"] = item.upstream;
     });
   }
 
   return {
-    info: isoinfo,
+    info: [],
     mirrors,
   };
 };
