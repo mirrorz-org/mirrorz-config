@@ -7,9 +7,9 @@
       "rules": [
         {
           "normalize": {
-            "type": "regex",
-            "match": "^/raspberrypi/debian(/.*)?$",
-            "target": "/raspberrypi${1}"
+            "type": "path",
+            "match": "^/raspberrypi/debian",
+            "target": "/raspberrypi"
           }
         }
       ]
