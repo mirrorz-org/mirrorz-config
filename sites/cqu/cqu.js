@@ -2,6 +2,8 @@ const tunasync = require("../../parser/tunasync");
 const isoinfo = require("../../parser/isoinfo");
 const cname = require("../../parser/utils").cname;
 const siteData = require("./cqu.json");
+const override = require("../../parser/override");
+const overrideData = require("./override.json");
 
 module.exports = async function () {
   const site = JSON.parse(JSON.stringify(siteData));
@@ -9,11 +11,11 @@ module.exports = async function () {
   mirrors = await meta("https://mirrors-metadata.cqulug.club/local_data.json", mirrors);
   const info = await isoinfo("https://mirrors-metadata.cqulug.club/isoinfo.json");
 
-  return {
+  return override({
     site,
     info,
     mirrors,
-  };
+  }, overrideData);
 };
 
 async function meta(metaUrl, mirrors) {

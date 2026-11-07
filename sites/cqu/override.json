@@ -1,0 +1,20 @@
+{
+  "mirrors": [
+    {
+      "cname": "centos",
+      "rules": [
+        {
+          "type": "path",
+          "match": "/7.9.2009/",
+          "target": "/7.9.2009/"
+        },
+        {
+          "type": "path",
+          "scope": "centos-vault",
+          "match": "/",
+          "target": "/"
+        }
+      ]
+    }
+  ]
+}
