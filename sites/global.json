@@ -12,5 +12,19 @@
       "match": "^/adoptium/rpm/(centos|fedora)/([0-9]+)/([^/]+)(/.*)$",
       "target": "/Adoptium/rpm/${1}${2}-${3}${4}"
     }
-  ]
+  ],
+  "mirrorlist_path": {
+    "ubuntu": {
+      "official_url": "security.ubuntu.com/ubuntu/"
+    },
+    "ubuntu-ports": {
+      "official_url": "ports.ubuntu.com/ubuntu-ports/"
+    },
+    "debian-security": {
+      "official_url": "security.debian.org/debian-security/"
+    },
+    "anthon": {
+      "path": "/anthon/debs"
+    }
+  }
 }
