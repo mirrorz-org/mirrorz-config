@@ -42,6 +42,7 @@ const xtom_sg = require("../sites/xtom/xtom-sg");
 const ynuosa = require("../sites/ynu/ynuosa");
 const zhiyuan = require("../sites/zhiyuan/zhiyuan");
 const zju = require("../sites/zju/zju");
+const sau = require("../sites/sau/sau");
 
 const lint = require('./lint')
 
@@ -72,6 +73,7 @@ module.exports = {
   "nwafu"   : async () => lint(await nwafu   ()),
   "pku"     : async () => lint(await pku     ()),
   "qlut"    : async () => lint(await qlut    ()),
+  "sau"     : async () => lint(await sau     ()),
   "sdu"     : async () => lint(await sdu     ()),
   "siyuan"  : async () => lint(await siyuan  ()),
   "sustech" : async () => lint(await sustech ()),
@@ -90,5 +92,5 @@ module.exports = {
   "xtom-sg" : async () => lint(await xtom_sg ()),
   "ynuosa"  : async () => lint(await ynuosa  ()),
   "zhiyuan" : async () => lint(await zhiyuan ()),
-  "zju"     : async () => lint(await zju     ()),
+  "zju"     : async () => lint(await zju     ())
 };

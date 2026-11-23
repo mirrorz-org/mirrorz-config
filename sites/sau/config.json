@@ -1,0 +1,53 @@
+{
+  "abbrs": [
+    "SAU"
+  ],
+  "endpoints": [
+    {
+      "label": "sau",
+      "public": true,
+      "resolve": "mirrors.sau.edu.cn",
+      "filter": [
+        "V4",
+        "V6",
+        "SSL",
+        "NOSLL"
+      ],
+      "range": [
+        "COUNTRY:CN",
+        "REGION:LN",
+        "ISP:CERNET"
+      ]
+    },
+    {
+      "label": "sau",
+      "public": true,
+      "resolve": "mirrors4.sau.edu.cn",
+      "filter": [
+        "V4",
+        "SSL",
+        "NOSLL"
+      ],
+      "range": [
+        "COUNTRY:CN",
+        "REGION:LN",
+        "ISP:CERNET"
+      ]
+    },
+    {
+      "label": "sau",
+      "public": true,
+      "resolve": "mirrors6.sau.edu.cn",
+      "filter": [
+        "V6",
+        "SSL",
+        "NOSLL"
+      ],
+      "range": [
+        "COUNTRY:CN",
+        "REGION:LN",
+        "ISP:CERNET"
+      ]
+    }
+  ]
+}
