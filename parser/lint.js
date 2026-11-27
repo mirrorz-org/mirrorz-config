@@ -12,6 +12,12 @@ function quirks(mirrorz) {
       }
     }
   }
+  // NJU publishes both the Homebrew collection and its brew.git child.
+  // Keep the collection when both names resolve to homebrew.
+  const isBrewRepo = (mirror) => mirror.url.endsWith("/brew.git");
+  if (mirrorz.mirrors.some((m) => m.cname === "homebrew" && !isBrewRepo(m))) {
+    mirrorz.mirrors = mirrorz.mirrors.filter((m) => m.cname !== "homebrew" || !isBrewRepo(m));
+  }
   return mirrorz;
 }
 

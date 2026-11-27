@@ -45,5 +45,18 @@
         "NOSSL"
       ]
     }
-  ]
+  ],
+  "redirects": {
+    "homebrew": {
+      "whitelist": [
+        "^/brew\\.git(/|$)"
+      ],
+      "rewrite": [
+        {
+          "match": "^/brew\\.git(?:/(.*))?$",
+          "target": "/${1}"
+        }
+      ]
+    }
+  }
 }

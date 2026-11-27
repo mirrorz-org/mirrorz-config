@@ -36,6 +36,17 @@
           "target": "/debian/${1}"
         }
       ]
+    },
+    "homebrew": {
+      "whitelist": [
+        "^/brew\\.git(/|$)"
+      ],
+      "rewrite": [
+        {
+          "match": "^/brew\\.git(?:/(.*))?$",
+          "target": "/${1}"
+        }
+      ]
     }
   },
   "mirrorlist_paths": {

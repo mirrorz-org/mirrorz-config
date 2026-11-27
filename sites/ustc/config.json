@@ -133,6 +133,17 @@
           "target": "/rpm/centos/$2/$3/$4"
         }
       ]
+    },
+    "homebrew": {
+      "whitelist": [
+        "^/brew\\.git(/|$)"
+      ],
+      "rewrite": [
+        {
+          "match": "^/brew\\.git(?:/(.*))?$",
+          "target": "/${1}"
+        }
+      ]
     }
   },
   "mirrorlist_paths": {

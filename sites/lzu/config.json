@@ -27,5 +27,18 @@
         "219.246.176.0/20"
       ]
     }
-  ]
+  ],
+  "redirects": {
+    "homebrew": {
+      "whitelist": [
+        "^/brew\\.git(/|$)"
+      ],
+      "rewrite": [
+        {
+          "match": "^/brew\\.git(?:/(.*))?$",
+          "target": "/${1}"
+        }
+      ]
+    }
+  }
 }

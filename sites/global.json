@@ -1,6 +1,10 @@
 {
   "redirects": [
     {
+      "match": "^/(?:git/)?brew\\.git(/.*)?$",
+      "target": "/homebrew/brew.git${1}"
+    },
+    {
       "match": "^/raspberrypi/debian(/.*)?$",
       "target": "/raspberrypi${1}"
     },
